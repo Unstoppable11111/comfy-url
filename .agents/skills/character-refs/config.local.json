@@ -1,0 +1,27 @@
+{
+  "anchorModel": "qwen",
+  "deriveModel": "qwen",
+  "confirmAnchor": true,
+  "models": {
+    "qwen": {
+      "envFile": null,
+      "unet": "qwen_image_2.1_int8_convrot.safetensors",
+      "clip": "qwen3vl_8b_int8_convrot.safetensors",
+      "vae": "qwen_image_2.1_vae_bf16.safetensors",
+      "steps": 20,
+      "cfg": 2.5,
+      "shift": 3.1,
+      "url": "http://127.0.0.1:8188"
+    },
+    "codex": {
+      "bin": null
+    },
+    "openai": {
+      "envFile": null,
+      "baseUrl": "https://api.openai.com/v1",
+      "model": "gpt-image-2",
+      "quality": "high"
+    },
+    "custom": {}
+  }
+}
