@@ -1,0 +1,277 @@
+{
+  "source": "潜龙出渊：离婚当天，千亿财阀跪迎少主",
+  "dynasty": "现代",
+  "scenes": [
+    {
+      "id": "S01",
+      "name": "苏家别墅客厅",
+      "primary": true,
+      "summary": "奢华而冰冷的现代豪门客厅，米白真皮沙发与金色装饰彰显暴发户审美，见证男主三年隐忍与决绝断离。",
+      "anchors": [
+        {
+          "name": "欧式水晶吊灯",
+          "desc": "多层垂坠水滴形切割水晶，散发刺眼白金冷光"
+        },
+        {
+          "name": "意大利灰大理石茶几",
+          "desc": "厚重大理石台面带有天然深灰裂纹与镀金边框"
+        },
+        {
+          "name": "落地落地窗与金色窗帘",
+          "desc": "朝南通体落地巨幕玻璃，两侧悬挂厚重金丝绒遮光帘"
+        }
+      ],
+      "lighting": [
+        {
+          "state": "室内明亮日光",
+          "prompt": "luxurious modern living room interior, bright natural morning sunlight through floor-to-ceiling windows, crystal chandelier off, clean daylight, sharp shadows, empty room without people."
+        }
+      ],
+      "image": {
+        "prompt": "Interior photography of an opulent modern mansion living room, Italian grey marble coffee table, cream-white leather sofa, multi-tier crystal chandelier, wide floor-to-ceiling glass windows, soft daylight, 35mm architectural photo, empty interior, absolutely no people.",
+        "negativePrompt": "people, human, person, silhouette, crowd, blurry, distorted architecture, low resolution",
+        "sheet": "Modern architectural interior design sheet of a luxury villa living room, wide angle view on neutral background, authentic realistic materials, ultra clear details, empty interior without humans.",
+        "tags": [
+          "modern luxury interior",
+          "mansion",
+          "marble",
+          "daylight"
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "name": "龙腾资本顶层办公室",
+      "primary": true,
+      "summary": "俯瞰全城的云端至尊办公室，深黑胡桃木与钛合金极简线条，彰显掌控全球万亿命脉的帝王格局。",
+      "anchors": [
+        {
+          "name": "弧形全景落地玻璃幕墙",
+          "desc": "180度俯瞰整座江北CBD高楼群与蜿蜒江景"
+        },
+        {
+          "name": "整块乌木雕刻总裁大案",
+          "desc": "五米长整块极品黑檀实木大桌，泛着温润幽光"
+        },
+        {
+          "name": "悬挂九龙云海暗金图",
+          "desc": "背景墙上三米高玄黑与暗金交织的抽象九龙腾渊浮雕"
+        }
+      ],
+      "lighting": [
+        {
+          "state": "俯瞰黄昏天光",
+          "prompt": "cloud-level penthouse executive office, dramatic warm golden sunset sky over modern city skyline through floor-to-ceiling glass, sleek ambient LED cove lighting, empty room without people."
+        }
+      ],
+      "image": {
+        "prompt": "Architectural photography of an ultra-luxury modern billionaire executive office, floor-to-ceiling glass wall overlooking sprawling metropolis skyline, massive dark ebony wood desk, minimalist leather armchairs, cinematic sunset illumination, empty room, no people.",
+        "negativePrompt": "people, human, person, reflection of people, messy room, low quality",
+        "sheet": "Design sheet of an ultra-modern corporate penthouse office, clean geometric layout, high-end materials, empty room without people.",
+        "tags": [
+          "penthouse office",
+          "skyline",
+          "modern billionaire",
+          "ebony wood"
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "name": "江北国际宴会厅",
+      "primary": true,
+      "summary": "金碧辉煌的顶级豪门晚宴会场，高耸罗马立柱与鲜花红毯，阶层虚荣与当众打脸的核心修罗场。",
+      "anchors": [
+        {
+          "name": "香槟塔主舞台",
+          "desc": "七层金边郁金香水晶杯层层堆叠，光影折射璀璨光斑"
+        },
+        {
+          "name": "两列汉白玉雕花拱柱",
+          "desc": "通高九米欧式圆柱整齐排列，柱头雕刻忍冬草花纹"
+        },
+        {
+          "name": "暗红重织丝绒迎宾红毯",
+          "desc": "贯穿全场中央的长条织锦地毯，两侧点缀纯银烛台"
+        }
+      ],
+      "lighting": [
+        {
+          "state": "璀璨暖金晚宴灯",
+          "prompt": "grand ballroom banquet hall, thousands of golden crystal ceiling lights, warm cinematic ambient glow, reflective polished marble floor, empty hall without people."
+        }
+      ],
+      "image": {
+        "prompt": "Interior photography of a grand luxury banquet ballroom, champagne glass pyramid centerpiece, tall classical pillars, long crimson velvet carpet, warm golden crystal chandeliers reflecting on glossy marble floor, empty venue, no people.",
+        "negativePrompt": "people, crowd, guests, waiters, human face, figures, blurred details",
+        "sheet": "Architectural sheet of a luxury hotel grand ballroom, multiple camera views, classical grandeur, pure architectural rendering, empty without humans.",
+        "tags": [
+          "luxury ballroom",
+          "banquet",
+          "marble columns",
+          "golden lights"
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "name": "晴雪集团总裁办公室",
+      "primary": true,
+      "summary": "简约冷冽的职场女性总裁工作室，黑白灰主色调，体现苏晴雪高傲好强而又刻薄冰冷的行事风格。",
+      "anchors": [
+        {
+          "name": "L型哑光白烤漆办公桌",
+          "desc": "桌面整洁摆放超薄金属工作屏与文件架"
+        },
+        {
+          "name": "背后通顶磨砂玻璃书架",
+          "desc": "嵌有暖白灯带的通顶书柜，陈列各类商界荣誉奖杯"
+        },
+        {
+          "name": "灰色布艺洽谈双人沙发",
+          "desc": "配有极简黑色细铁艺茶几的休闲洽谈角落"
+        }
+      ],
+      "lighting": [
+        {
+          "state": "明亮冷白办公光",
+          "prompt": "sleek contemporary female executive office, cool white LED ceiling panel light mixed with natural overcast daylight, empty office interior without people."
+        }
+      ],
+      "image": {
+        "prompt": "Interior photo of a minimalist modern female CEO office, white lacquer L-shaped desk, frosted glass display shelves with trophies, grey fabric sofa, cool professional lighting, clean empty room, no people.",
+        "negativePrompt": "people, person, worker, clutter, disorganization",
+        "sheet": "Minimalist modern CEO office interior design sheet, clean lines and organized layout, empty without humans.",
+        "tags": [
+          "office interior",
+          "modern executive",
+          "white and grey"
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "name": "民政局门口街头",
+      "primary": false,
+      "summary": "城市街头民政局大理石台阶与宽阔大道，林立的高楼与驶过的车流，见证旧婚约破碎与新篇章开启。",
+      "anchors": [
+        {
+          "name": "浅灰花岗岩宽台阶",
+          "desc": "宽达十米的平整石阶，台阶边缘带有防滑铜条"
+        },
+        {
+          "name": "民政婚姻登记处铜牌",
+          "desc": "红木底托拉丝黄铜铭牌，挂于青石门柱右侧"
+        },
+        {
+          "name": "行道香樟树与黑色路灯",
+          "desc": "整齐排列的葱郁行道树与欧式铸铁复古路灯杆"
+        }
+      ],
+      "lighting": [
+        {
+          "state": "清冷晨光微熹",
+          "prompt": "exterior street view of modern government building entrance, stone steps, paved street, cool early morning overcast daylight, empty street without people."
+        }
+      ],
+      "image": {
+        "prompt": "Exterior architectural street photography of modern civil affairs office entrance, wide granite steps, polished brass wall plaque, paved urban street with lush trees, cool morning overcast light, empty street, absolutely no people.",
+        "negativePrompt": "people, pedestrians, crowd, cars, blurry, artifacts",
+        "sheet": "Exterior urban scene design sheet, civil registration office entrance, clear architectural elevation, empty street without humans.",
+        "tags": [
+          "exterior",
+          "urban street",
+          "stone steps",
+          "morning light"
+        ]
+      },
+      "variantOf": "S01",
+      "changes": "从室内豪门客厅切换至城市街头室外花岗岩台阶与宽阔路面"
+    }
+  ],
+  "props": [
+    {
+      "id": "P01",
+      "name": "三年婚戒与离婚协议",
+      "scale": "桌面级",
+      "summary": "一纸轻蔑的净身出户协议与褪色的素银戒指，承载男主三年隐忍终局与尊严反击契机。",
+      "anchors": [
+        {
+          "name": "红印泥鲜红手印",
+          "desc": "协议书末尾清晰刺目的红色指印"
+        },
+        {
+          "name": "磨损银素圈戒指",
+          "desc": "内圈刻有暗淡字母SZ的素面平顶银戒"
+        },
+        {
+          "name": "加粗净身出户条款",
+          "desc": "A4纸中央醒目的放弃全部共同财产黑体字"
+        }
+      ],
+      "states": [
+        {
+          "state": "摊平于石台上",
+          "prompt": "tabletop scale, a signed divorce settlement paper and a simple silver wedding ring laid on smooth marble surface, realistic macro photography, no hands, no people."
+        }
+      ],
+      "relatedScenes": [
+        "S01"
+      ],
+      "carriedBy": "苏晴雪",
+      "image": {
+        "prompt": "tabletop scale product photo on pure white background, white A4 divorce agreement paper stamped with red seal beside a worn minimalist silver band ring, crisp studio light, no hands, no people.",
+        "negativePrompt": "hands, fingers, holding, people, human, messy background",
+        "sheet": "Detailed prop design sheet of divorce document and silver ring, tabletop scale, isolated on pure white background, multiple angle close-ups, ultra realistic studio rendering, no humans no hands.",
+        "tags": [
+          "document",
+          "ring",
+          "tabletop",
+          "white background"
+        ]
+      }
+    },
+    {
+      "id": "P02",
+      "name": "九龙至尊黑金卡",
+      "scale": "手持级",
+      "summary": "龙门至高权柄象征，钛合金覆黑晶材质，调动万亿流水且享有全球最高首脑豁免权。",
+      "anchors": [
+        {
+          "name": "九龙盘云暗金微雕",
+          "desc": "卡身正面微米级激光雕刻的九条腾云金龙"
+        },
+        {
+          "name": "红宝石微型芯片",
+          "desc": "左侧镶嵌天然鸽血红宝石微型感应晶片"
+        },
+        {
+          "name": "至尊编号0001",
+          "desc": "右下角凸起压印的哑光纯金编号DRAGON-0001"
+        }
+      ],
+      "states": [
+        {
+          "state": "平置于红丝绒衬垫",
+          "prompt": "handheld scale, ultra-exclusive black titanium credit card with subtle nine-dragon gold engraving and red ruby chip resting on velvet tray, clean macro studio lighting, no hands, no people."
+        }
+      ],
+      "relatedScenes": [
+        "S02",
+        "S03"
+      ],
+      "carriedBy": "陆沉",
+      "image": {
+        "prompt": "handheld scale product photo on pure white background, matte black titanium alloy black card with laser engraved nine dragons in subtle gold leaf and a small ruby chip, pure white background, dramatic sharp macro product photography, no hands, no humans.",
+        "negativePrompt": "hands, fingers, palm, people, human, holding card, dirty background",
+        "sheet": "Single prop sheet on pure white background, handheld scale, front and back views of luxury black credit card, macro details of ruby chip and embossed gold lettering, sharp focus, no hands.",
+        "tags": [
+          "black card",
+          "titanium",
+          "handheld scale",
+          "white background"
+        ]
+      }
+    }
+  ]
+}

@@ -66,3 +66,17 @@
   - **DON'T**：严禁在短剧工业化批量分镜中继续使用暴力全图潜空间融合（Img2Img `denoise 0.68`）；
   - **DO**：全面升级至通义千问 `Qwen-Image-Edit`（基于 `TextEncodeQwenImageEditPlus` 节点）；
   - **DO**：将角色唯一官方定妆母版（`master_id/<char_id>.png`）作为多模态视觉提示传入 Qwen3-VL 8B，配合 `EmptySD3LatentImage` 与 `denoise: 1.0`，实现身体动作 100% 自由调度与面部五官身份骨相的精准锁定。
+
+### 7. 算家云（Suanjiayun）镜像“死软链接”避坑与 0 成本存储持久化规范
+- **错误现象**：在算家云租用 ComfyUI 镜像后，发现 `models` 目录下虽然列有大量模型名字，但全部无法加载，启动报错 `Value not in list: unet_name ... invalid prompt`，终端查看发现所有模型文件全是指向 `/root/sj-data/LargeModel/...` 的死软链接（Broken Symlink）。
+- **根本原因**：
+  1. 算家云平台为减小镜像分发体积对镜像进行了“动静剥离”，将环境与大模型解耦；镜像作者制作时将其私有数据路径 `/root/sj-data` 写死在软链接中，而用户开机时该挂载点为空；
+  2. 用户若盲目扩容收费数据盘或开通 `sj-fs` 网盘，关机后每天仍会被持续扣除高额硬盘租金，且关机超 7 天还面临被平台自动释放的风险。
+- **正确做法与约束（Dos & Don'ts）**：
+  - **DON'T**：严禁花冤枉钱在控制台手动扩容付费数据盘；
+  - **DO**：严格认清算家云磁盘生命周期规则：
+    - **系统盘 `/`（30GB）**：点击平台「保存镜像」时会**完整打包保存**；
+    - **临时盘 `/root/sj-tmp`（50GB）**：读写速度极快，但**保存镜像时会被自动忽略**！
+  - **DO**：针对 AI 短剧工业化工作流，核心模型（`qwen_image_2.1_int8_convrot.safetensors` 6.9GB + `qwen3vl_8b_int8_convrot.safetensors` 8.9GB + `qwen_image_2.1_vae_bf16.safetensors` 645MB，总共约 16.5GB）应直接下载存放在**系统盘** `/ComfyUI/models/` 对应子目录中（系统盘 30GB 空间完全充裕）；
+  - **DO**：下载完成后，在控制台点击**「保存镜像」**，将其固化至算家云赠送的 **50GB 免费项目镜像库**中；随后直接**释放（销毁）**实例，彻底实现**0 关机存储费、永久云端保存、下次开机 0 秒即用大模型**。
+

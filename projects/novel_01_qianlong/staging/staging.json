@@ -1,0 +1,904 @@
+{
+  "source": "潜龙出渊：离婚当天，千亿财阀跪迎少主",
+  "lang": "zh",
+  "locations": [
+    {
+      "sceneId": "S01",
+      "name": "苏家别墅客厅",
+      "readFrom": "prompt",
+      "items": [
+        {
+          "name": "北墙金丝刺绣大屏风",
+          "alt": "North Wall Embroidered Screen",
+          "plan": [
+            0.2,
+            0.05,
+            0.8,
+            0.15
+          ],
+          "on": false
+        },
+        {
+          "name": "主位真皮双人沙发",
+          "alt": "Main Leather Sofa",
+          "plan": [
+            0.3,
+            0.2,
+            0.7,
+            0.35
+          ],
+          "on": true
+        },
+        {
+          "name": "灰大理石长茶几",
+          "alt": "Marble Coffee Table",
+          "plan": [
+            0.3,
+            0.4,
+            0.7,
+            0.55
+          ],
+          "on": false
+        },
+        {
+          "name": "西侧单人扶手皮椅",
+          "alt": "West Armchair",
+          "plan": [
+            0.1,
+            0.35,
+            0.25,
+            0.55
+          ],
+          "on": true
+        },
+        {
+          "name": "东侧单人扶手皮椅",
+          "alt": "East Armchair",
+          "plan": [
+            0.75,
+            0.35,
+            0.9,
+            0.55
+          ],
+          "on": true
+        },
+        {
+          "name": "南侧入户大玄关",
+          "alt": "South Entrance Hall",
+          "plan": [
+            0.35,
+            0.8,
+            0.65,
+            0.95
+          ],
+          "on": true
+        }
+      ]
+    },
+    {
+      "sceneId": "S11",
+      "name": "民政局门口街头",
+      "readFrom": "prompt",
+      "items": [
+        {
+          "name": "北侧民政局大铜门",
+          "alt": "North Brass Entrance Door",
+          "plan": [
+            0.3,
+            0.05,
+            0.7,
+            0.15
+          ],
+          "on": false
+        },
+        {
+          "name": "正门花岗岩宽石阶",
+          "alt": "Granite Wide Steps",
+          "plan": [
+            0.2,
+            0.2,
+            0.8,
+            0.45
+          ],
+          "on": true
+        },
+        {
+          "name": "东侧青石门柱铜牌",
+          "alt": "East Stone Pillar",
+          "plan": [
+            0.8,
+            0.1,
+            0.95,
+            0.3
+          ],
+          "on": false
+        },
+        {
+          "name": "中央铺装开阔大道",
+          "alt": "Central Paved Avenue",
+          "plan": [
+            0.1,
+            0.5,
+            0.9,
+            0.8
+          ],
+          "on": true
+        },
+        {
+          "name": "南端黑色迎宾车队",
+          "alt": "South VIP Car Fleet",
+          "plan": [
+            0.2,
+            0.85,
+            0.8,
+            0.98
+          ],
+          "on": true
+        }
+      ]
+    },
+    {
+      "sceneId": "S02",
+      "name": "龙腾资本顶层办公室",
+      "readFrom": "prompt",
+      "items": [
+        {
+          "name": "北侧巨幅九龙腾海浮雕",
+          "alt": "North Nine Dragon Relief Wall",
+          "plan": [
+            0.2,
+            0.02,
+            0.8,
+            0.1
+          ],
+          "on": false
+        },
+        {
+          "name": "总裁黑檀木大案桌",
+          "alt": "Ebony Executive Desk",
+          "plan": [
+            0.25,
+            0.15,
+            0.75,
+            0.3
+          ],
+          "on": false
+        },
+        {
+          "name": "至尊真皮高背老板椅",
+          "alt": "Executive Leather High-back Chair",
+          "plan": [
+            0.4,
+            0.08,
+            0.6,
+            0.18
+          ],
+          "on": true
+        },
+        {
+          "name": "东侧黑色接待长软榻",
+          "alt": "East Black Reception Sofa",
+          "plan": [
+            0.8,
+            0.35,
+            0.95,
+            0.75
+          ],
+          "on": true
+        },
+        {
+          "name": "南端全景落地玻璃幕墙",
+          "alt": "South Floor-to-Ceiling Glass Wall",
+          "plan": [
+            0.05,
+            0.85,
+            0.95,
+            0.98
+          ],
+          "on": false
+        }
+      ]
+    },
+    {
+      "sceneId": "S03",
+      "name": "江北国际宴会厅",
+      "readFrom": "prompt",
+      "items": [
+        {
+          "name": "北侧主舞台香槟塔",
+          "alt": "North Stage Champagne Tower",
+          "plan": [
+            0.3,
+            0.05,
+            0.7,
+            0.2
+          ],
+          "on": false
+        },
+        {
+          "name": "中央长条红丝绒走道",
+          "alt": "Central Red Velvet Aisle",
+          "plan": [
+            0.4,
+            0.25,
+            0.6,
+            0.85
+          ],
+          "on": true
+        },
+        {
+          "name": "西侧贵宾冷餐长桌",
+          "alt": "West VIP Buffet Table",
+          "plan": [
+            0.1,
+            0.3,
+            0.25,
+            0.75
+          ],
+          "on": false
+        },
+        {
+          "name": "东侧高脚迎宾收银台",
+          "alt": "East VIP Reception Desk",
+          "plan": [
+            0.75,
+            0.4,
+            0.95,
+            0.6
+          ],
+          "on": false
+        },
+        {
+          "name": "南侧金碧辉煌双开大门",
+          "alt": "South Grand Double Doors",
+          "plan": [
+            0.35,
+            0.88,
+            0.65,
+            0.98
+          ],
+          "on": true
+        }
+      ]
+    },
+    {
+      "sceneId": "S04",
+      "name": "晴雪集团总裁办公室",
+      "readFrom": "prompt",
+      "items": [
+        {
+          "name": "北侧通顶磨砂玻璃书架",
+          "alt": "North Glass Display Shelf",
+          "plan": [
+            0.1,
+            0.05,
+            0.9,
+            0.15
+          ],
+          "on": false
+        },
+        {
+          "name": "白色L型烤漆办公桌",
+          "alt": "White Lacquer L-Desk",
+          "plan": [
+            0.25,
+            0.2,
+            0.65,
+            0.4
+          ],
+          "on": false
+        },
+        {
+          "name": "总裁人体工学旋转椅",
+          "alt": "Executive Ergonomic Chair",
+          "plan": [
+            0.4,
+            0.12,
+            0.55,
+            0.22
+          ],
+          "on": true
+        },
+        {
+          "name": "东侧灰色布艺双人沙发",
+          "alt": "East Grey Fabric Sofa",
+          "plan": [
+            0.75,
+            0.45,
+            0.95,
+            0.75
+          ],
+          "on": true
+        },
+        {
+          "name": "西侧茶水咖啡吧台",
+          "alt": "West Coffee Bar",
+          "plan": [
+            0.05,
+            0.45,
+            0.2,
+            0.75
+          ],
+          "on": false
+        },
+        {
+          "name": "南侧进户磨砂实木双门",
+          "alt": "South Office Entrance Door",
+          "plan": [
+            0.35,
+            0.85,
+            0.65,
+            0.98
+          ],
+          "on": true
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "ep": 1,
+      "scene": 1,
+      "sceneId": "S01",
+      "lighting": "室内明亮日光",
+      "cast": [
+        {
+          "id": "C01",
+          "name": "陆沉"
+        },
+        {
+          "id": "C02",
+          "name": "苏晴雪"
+        },
+        {
+          "id": "C03",
+          "name": "周恒"
+        }
+      ],
+      "places": [
+        {
+          "id": "C01",
+          "name": "陆沉",
+          "present": true,
+          "item": "南侧入户大玄关",
+          "side": "north",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "north"
+        },
+        {
+          "id": "C02",
+          "name": "苏晴雪",
+          "present": true,
+          "item": "灰大理石长茶几",
+          "side": "north",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "south"
+        },
+        {
+          "id": "C03",
+          "name": "周恒",
+          "present": true,
+          "item": "主位真皮双人沙发",
+          "side": "on",
+          "along": 0.5,
+          "posture": "sit",
+          "facing": "south"
+        }
+      ],
+      "extras": 0,
+      "extrasWhere": null,
+      "why": "第1集开场戏剧对峙站位，确立主客对立与阶层压制关系"
+    },
+    {
+      "ep": 2,
+      "scene": 1,
+      "sceneId": "S11",
+      "lighting": "清冷晨光微熹",
+      "cast": [
+        {
+          "id": "C01",
+          "name": "陆沉"
+        },
+        {
+          "id": "C02",
+          "name": "苏晴雪"
+        },
+        {
+          "id": "C05",
+          "name": "苏老太君"
+        }
+      ],
+      "places": [
+        {
+          "id": "C01",
+          "name": "陆沉",
+          "present": true,
+          "item": "中央铺装开阔大道",
+          "side": "on",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "south"
+        },
+        {
+          "id": "C02",
+          "name": "苏晴雪",
+          "present": true,
+          "item": "正门花岗岩宽石阶",
+          "side": "west",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "south"
+        },
+        {
+          "id": "C05",
+          "name": "苏老太君",
+          "present": true,
+          "item": "正门花岗岩宽石阶",
+          "side": "east",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "south"
+        }
+      ],
+      "extras": 0,
+      "extrasWhere": null,
+      "why": "第2集开场戏剧对峙站位，确立主客对立与阶层压制关系"
+    },
+    {
+      "ep": 3,
+      "scene": 1,
+      "sceneId": "S02",
+      "lighting": "俯瞰黄昏天光",
+      "cast": [
+        {
+          "id": "C01",
+          "name": "陆沉"
+        },
+        {
+          "id": "C04",
+          "name": "姜月璃"
+        }
+      ],
+      "places": [
+        {
+          "id": "C01",
+          "name": "陆沉",
+          "present": true,
+          "item": "至尊真皮高背老板椅",
+          "side": "on",
+          "along": 0.5,
+          "posture": "sit",
+          "facing": "south"
+        },
+        {
+          "id": "C04",
+          "name": "姜月璃",
+          "present": true,
+          "item": "总裁黑檀木大案桌",
+          "side": "south",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "north"
+        }
+      ],
+      "extras": 0,
+      "extrasWhere": null,
+      "why": "第3集开场戏剧对峙站位，确立主客对立与阶层压制关系"
+    },
+    {
+      "ep": 4,
+      "scene": 1,
+      "sceneId": "S02",
+      "lighting": "俯瞰黄昏天光",
+      "cast": [
+        {
+          "id": "C02",
+          "name": "苏晴雪"
+        },
+        {
+          "id": "C03",
+          "name": "周恒"
+        },
+        {
+          "id": "C04",
+          "name": "姜月璃"
+        }
+      ],
+      "places": [
+        {
+          "id": "C02",
+          "name": "苏晴雪",
+          "present": true,
+          "item": "东侧黑色接待长软榻",
+          "side": "on",
+          "along": 0.3,
+          "posture": "sit",
+          "facing": "west"
+        },
+        {
+          "id": "C03",
+          "name": "周恒",
+          "present": true,
+          "item": "东侧黑色接待长软榻",
+          "side": "on",
+          "along": 0.7,
+          "posture": "sit",
+          "facing": "west"
+        },
+        {
+          "id": "C04",
+          "name": "姜月璃",
+          "present": true,
+          "item": "总裁黑檀木大案桌",
+          "side": "south",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "east"
+        }
+      ],
+      "extras": 0,
+      "extrasWhere": null,
+      "why": "第4集开场戏剧对峙站位，确立主客对立与阶层压制关系"
+    },
+    {
+      "ep": 5,
+      "scene": 1,
+      "sceneId": "S03",
+      "lighting": "璀璨暖金晚宴灯",
+      "cast": [
+        {
+          "id": "C01",
+          "name": "陆沉"
+        },
+        {
+          "id": "C03",
+          "name": "周恒"
+        },
+        {
+          "id": "C09",
+          "name": "宴会执事"
+        }
+      ],
+      "places": [
+        {
+          "id": "C01",
+          "name": "陆沉",
+          "present": true,
+          "item": "南侧金碧辉煌双开大门",
+          "side": "north",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "north"
+        },
+        {
+          "id": "C03",
+          "name": "周恒",
+          "present": true,
+          "item": "中央长条红丝绒走道",
+          "side": "south",
+          "along": 0.3,
+          "posture": "stand",
+          "facing": "south"
+        },
+        {
+          "id": "C09",
+          "name": "宴会执事",
+          "present": true,
+          "item": "中央长条红丝绒走道",
+          "side": "south",
+          "along": 0.7,
+          "posture": "stand",
+          "facing": "south"
+        }
+      ],
+      "extras": 0,
+      "extrasWhere": null,
+      "why": "第5集开场戏剧对峙站位，确立主客对立与阶层压制关系"
+    },
+    {
+      "ep": 6,
+      "scene": 1,
+      "sceneId": "S03",
+      "lighting": "璀璨暖金晚宴灯",
+      "cast": [
+        {
+          "id": "C01",
+          "name": "陆沉"
+        },
+        {
+          "id": "C03",
+          "name": "周恒"
+        },
+        {
+          "id": "C10",
+          "name": "银行行长"
+        }
+      ],
+      "places": [
+        {
+          "id": "C01",
+          "name": "陆沉",
+          "present": true,
+          "item": "东侧高脚迎宾收银台",
+          "side": "west",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "east"
+        },
+        {
+          "id": "C03",
+          "name": "周恒",
+          "present": true,
+          "item": "中央长条红丝绒走道",
+          "side": "on",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "east"
+        },
+        {
+          "id": "C10",
+          "name": "银行行长",
+          "present": true,
+          "item": "东侧高脚迎宾收银台",
+          "side": "east",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "west"
+        }
+      ],
+      "extras": 0,
+      "extrasWhere": null,
+      "why": "第6集开场戏剧对峙站位，确立主客对立与阶层压制关系"
+    },
+    {
+      "ep": 7,
+      "scene": 1,
+      "sceneId": "S01",
+      "lighting": "室内明亮日光",
+      "cast": [
+        {
+          "id": "C01",
+          "name": "陆沉"
+        },
+        {
+          "id": "C02",
+          "name": "苏晴雪"
+        },
+        {
+          "id": "C03",
+          "name": "周恒"
+        },
+        {
+          "id": "C10",
+          "name": "银行行长"
+        }
+      ],
+      "places": [
+        {
+          "id": "C01",
+          "name": "陆沉",
+          "present": true,
+          "item": "南侧入户大玄关",
+          "side": "north",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "south"
+        },
+        {
+          "id": "C02",
+          "name": "苏晴雪",
+          "present": true,
+          "item": "灰大理石长茶几",
+          "side": "south",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "south"
+        },
+        {
+          "id": "C03",
+          "name": "周恒",
+          "present": true,
+          "item": "东侧单人扶手皮椅",
+          "side": "on",
+          "along": 0.5,
+          "posture": "sit",
+          "facing": "west"
+        },
+        {
+          "id": "C10",
+          "name": "银行行长",
+          "present": true,
+          "item": "南侧入户大玄关",
+          "side": "east",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "west"
+        }
+      ],
+      "extras": 0,
+      "extrasWhere": null,
+      "why": "第7集开场戏剧对峙站位，确立主客对立与阶层压制关系"
+    },
+    {
+      "ep": 8,
+      "scene": 1,
+      "sceneId": "S01",
+      "lighting": "室内明亮日光",
+      "cast": [
+        {
+          "id": "C01",
+          "name": "陆沉"
+        },
+        {
+          "id": "C04",
+          "name": "姜月璃"
+        },
+        {
+          "id": "C06",
+          "name": "苏浩"
+        }
+      ],
+      "places": [
+        {
+          "id": "C01",
+          "name": "陆沉",
+          "present": true,
+          "item": "灰大理石长茶几",
+          "side": "south",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "north"
+        },
+        {
+          "id": "C04",
+          "name": "姜月璃",
+          "present": true,
+          "item": "西侧单人扶手皮椅",
+          "side": "north",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "east"
+        },
+        {
+          "id": "C06",
+          "name": "苏浩",
+          "present": true,
+          "item": "南侧入户大玄关",
+          "side": "north",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "north"
+        }
+      ],
+      "extras": 0,
+      "extrasWhere": null,
+      "why": "第8集开场戏剧对峙站位，确立主客对立与阶层压制关系"
+    },
+    {
+      "ep": 9,
+      "scene": 1,
+      "sceneId": "S04",
+      "lighting": "明亮冷白办公光",
+      "cast": [
+        {
+          "id": "C01",
+          "name": "陆沉"
+        },
+        {
+          "id": "C02",
+          "name": "苏晴雪"
+        },
+        {
+          "id": "C03",
+          "name": "周恒"
+        },
+        {
+          "id": "C05",
+          "name": "苏老太君"
+        }
+      ],
+      "places": [
+        {
+          "id": "C01",
+          "name": "陆沉",
+          "present": false,
+          "item": null,
+          "side": null,
+          "along": null,
+          "posture": null,
+          "facing": null
+        },
+        {
+          "id": "C02",
+          "name": "苏晴雪",
+          "present": true,
+          "item": "总裁人体工学旋转椅",
+          "side": "on",
+          "along": 0.5,
+          "posture": "sit",
+          "facing": "south"
+        },
+        {
+          "id": "C03",
+          "name": "周恒",
+          "present": true,
+          "item": "东侧灰色布艺双人沙发",
+          "side": "on",
+          "along": 0.5,
+          "posture": "sit",
+          "facing": "west"
+        },
+        {
+          "id": "C05",
+          "name": "苏老太君",
+          "present": true,
+          "item": "白色L型烤漆办公桌",
+          "side": "south",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "north"
+        }
+      ],
+      "extras": 0,
+      "extrasWhere": null,
+      "why": "第9集开场戏剧对峙站位，确立主客对立与阶层压制关系"
+    },
+    {
+      "ep": 10,
+      "scene": 1,
+      "sceneId": "S04",
+      "lighting": "明亮冷白办公光",
+      "cast": [
+        {
+          "id": "C01",
+          "name": "陆沉"
+        },
+        {
+          "id": "C04",
+          "name": "姜月璃"
+        },
+        {
+          "id": "C06",
+          "name": "苏浩"
+        }
+      ],
+      "places": [
+        {
+          "id": "C01",
+          "name": "陆沉",
+          "present": true,
+          "item": "南侧进户磨砂实木双门",
+          "side": "north",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "north"
+        },
+        {
+          "id": "C04",
+          "name": "姜月璃",
+          "present": true,
+          "item": "西侧茶水咖啡吧台",
+          "side": "east",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "east"
+        },
+        {
+          "id": "C06",
+          "name": "苏浩",
+          "present": true,
+          "item": "白色L型烤漆办公桌",
+          "side": "south",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "south"
+        }
+      ],
+      "extras": 0,
+      "extrasWhere": null,
+      "why": "第10集开场戏剧对峙站位，确立主客对立与阶层压制关系"
+    }
+  ]
+}

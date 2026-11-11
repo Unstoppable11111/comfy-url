@@ -1,0 +1,277 @@
+{
+  "source": "凤归豪门：真千金马甲掉光，京圈全员跪求原谅",
+  "dynasty": "现代",
+  "scenes": [
+    {
+      "id": "S01",
+      "name": "顾家公馆大厅",
+      "primary": true,
+      "summary": "欧式古典复古的豪门大厅，法式雕花与名贵油画彰显百年世家底蕴，也是真千金被诬陷逼离的修罗场。",
+      "anchors": [
+        {
+          "name": "法式壁炉与西洋铜钟",
+          "desc": "天然白汉白玉浮雕壁炉，上方摆放十七世纪西洋鎏金双马摆钟"
+        },
+        {
+          "name": "欧式宫廷红绒沙发组",
+          "desc": "弧形描金木质雕边的高背沙发，铺设暗红古典提花厚绒"
+        },
+        {
+          "name": "双向回旋大理石旋转楼梯",
+          "desc": "通向二楼卧房的宽阔双向大理石梯台，配有铸铁金色缠枝护栏"
+        }
+      ],
+      "lighting": [
+        {
+          "state": "室内明亮日光",
+          "prompt": "luxurious European classic manor living hall, bright soft natural daylight filtering through arched French windows, crystal chandelier off, clean daylight, sharp shadows, empty room without people."
+        }
+      ],
+      "image": {
+        "prompt": "Interior photography of an opulent European classical manor hall, white marble carved fireplace, antique gilded carriage clock, crimson velvet sofa set, sweeping marble staircase, soft morning daylight, empty interior, absolutely no people.",
+        "negativePrompt": "people, human, person, silhouette, crowd, blurry, distorted architecture, low resolution",
+        "sheet": "Classical European manor interior design sheet, grand living hall with architectural elevations, authentic realistic materials, ultra clear details, empty interior without humans.",
+        "tags": [
+          "classic manor interior",
+          "marble fireplace",
+          "crimson sofa",
+          "daylight"
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "name": "暴雨夜顾家雕花铁门外",
+      "primary": false,
+      "summary": "倾盆暴雨中的豪门铸铁巨门外，闪电撕裂黑夜，水泥地面水洼激荡，见证决绝断亲与红旗国宾车破雨相迎。",
+      "anchors": [
+        {
+          "name": "黑色铸铁缠枝雕花大门",
+          "desc": "四米高带金漆尖顶防爬刺的宏伟铁艺大门，挂有厚重铸铁门锁"
+        },
+        {
+          "name": "雨水飞溅的花岗岩立柱",
+          "desc": "门侧两座方形大理石门柱，刻有顾公馆烫金门牌，水流如瀑冲刷"
+        },
+        {
+          "name": "柏油路面反光水坑",
+          "desc": "被狂风骤雨击打出密集涟漪的宽阔路面，倒映着耀目的车前大灯"
+        }
+      ],
+      "lighting": [
+        {
+          "state": "暴雨夜雷电交加",
+          "prompt": "exterior manor gate at night, violent heavy downpour rain storm, puddles on dark asphalt, dramatic lightning flash illumination, headlights cutting through rain mist, empty exterior without people."
+        }
+      ],
+      "image": {
+        "prompt": "Exterior street photography of luxury mansion ornate iron gate at night, torrential rainstorm, puddles reflecting cold street lights, wet granite stone pillars, dramatic cinematic darkness, empty street, absolutely no people.",
+        "negativePrompt": "people, pedestrians, crowd, umbrellas, faces, figures, blur",
+        "sheet": "Exterior night scene sheet of luxury wrought iron manor gate in storm, architectural elevation and details, clear surfaces, empty without humans.",
+        "tags": [
+          "exterior night",
+          "rainstorm",
+          "iron gate",
+          "cinematic lightning"
+        ]
+      },
+      "variantOf": "S01",
+      "changes": "从室内大厅切换至室外铸铁大门，添加黑夜暴雨与车灯光影特效"
+    },
+    {
+      "id": "S04",
+      "name": "顾昭昭云水间庄园",
+      "primary": true,
+      "summary": "坐落于京城最顶奢湖畔的隐世庄园，新中式极简园林与科技现代宅邸融合，低调内敛中彰显无上权威。",
+      "anchors": [
+        {
+          "name": "太湖石镜面水景中庭",
+          "desc": "天然沉香太湖石立于一泓幽碧如镜的水池中央，水波不兴"
+        },
+        {
+          "name": "全景落地隔音全通透茶室",
+          "desc": "四面通透的悬空水上茶轩，摆放整块沉香老木茶台与汉白玉瓷具"
+        },
+        {
+          "name": "极简灰白微水泥外立面",
+          "desc": "纯净流畅的几何建筑线条，掩映在几株百年苍劲罗汉松之间"
+        }
+      ],
+      "lighting": [
+        {
+          "state": "静谧晨光薄雾",
+          "prompt": "ultra-luxury private estate garden pavilion, tranquil morning mist over mirror water pond, minimalist modern Chinese architecture, soft diffuse daylight, empty courtyard without people."
+        }
+      ],
+      "image": {
+        "prompt": "Architectural photography of an ultra-exclusive modern zen luxury villa courtyard, reflective pool with Taihu scholar stone, minimalist glass tea pavilion, Japanese black pine trees, serene morning mist, empty scene, no people.",
+        "negativePrompt": "people, crowd, human, blurry, messy, oversaturated",
+        "sheet": "Modern zen luxury estate courtyard architectural sheet, clean elevations, water features, empty courtyard without humans.",
+        "tags": [
+          "modern luxury estate",
+          "zen courtyard",
+          "water pool",
+          "morning mist"
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "name": "京城第一私立重症监护室",
+      "primary": true,
+      "summary": "科技感极强的现代化重症ICU监护病房，精密仪器环伺，老太爷命悬一线与神医施针起死回生的关键转折点。",
+      "anchors": [
+        {
+          "name": "多参数心电监护仪工作屏",
+          "desc": "多联发光液晶显示屏，闪烁着心率、血氧与脑电波曲线图"
+        },
+        {
+          "name": "电动医疗重症护理病床",
+          "desc": "银灰色高科技防褥疮升降病床，四周挂满静脉输液导管"
+        },
+        {
+          "name": "手术器械无菌不锈钢托盘车",
+          "desc": "三层抛光不锈钢小推车，摆放密封针包与急救药瓶"
+        }
+      ],
+      "lighting": [
+        {
+          "state": "冷静专业无影灯",
+          "prompt": "advanced private hospital ICU room, clean cold white sterile medical LED lighting, glowing monitors, shiny stainless steel, empty hospital room without people."
+        }
+      ],
+      "image": {
+        "prompt": "Interior photography of a state-of-the-art modern ICU hospital room, multi-parameter heart monitors glowing with vital graphs, electronic medical bed, surgical stainless steel tray cart, clean clinical white lighting, empty room, no people.",
+        "negativePrompt": "people, patient, doctor, nurse, human, blood, clutter",
+        "sheet": "Modern hospital ICU room architectural interior sheet, clinical equipment details and layout, empty without humans.",
+        "tags": [
+          "hospital ICU",
+          "medical interior",
+          "clean clinical",
+          "white LED"
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "name": "京圈顶级慈善宴会厅",
+      "primary": true,
+      "summary": "京城名流云集的顶级慈善拍卖与晚宴大厅，水晶奢华，也是大师S珠宝打假与真假千金地位逆转的舞台。",
+      "anchors": [
+        {
+          "name": "圆形高光防弹珠宝展示柜",
+          "desc": "中央独立的圆柱形防弹玻璃展台，内置天鹅绒底衬与追光射灯"
+        },
+        {
+          "name": "拍卖主持红木演讲讲台",
+          "desc": "暗红色抛光木质立式讲台，配有黄铜复古鹅颈麦克风"
+        },
+        {
+          "name": "环形丝绒名流贵宾圆桌",
+          "desc": "铺着纯白丝光台布的宴席圆桌，摆放精致骨瓷与银制餐具"
+        }
+      ],
+      "lighting": [
+        {
+          "state": "璀璨暖金晚宴灯",
+          "prompt": "luxury charity auction ballroom, focused spotlights on glass display cases, warm golden crystal ceiling chandeliers, polished reflective flooring, empty hall without people."
+        }
+      ],
+      "image": {
+        "prompt": "Interior photography of an exclusive luxury auction ballroom, glass display pedestals with focused spotlights, mahogany auction podium, round tables with white silk cloths and silver cutlery, warm golden lighting, empty ballroom, no people.",
+        "negativePrompt": "people, guests, auctioneer, crowd, human silhouettes, distorted perspective",
+        "sheet": "Luxury charity auction hall interior design sheet, stage and display pedestal elevations, clean surfaces, empty without humans.",
+        "tags": [
+          "auction hall",
+          "charity ballroom",
+          "spotlights",
+          "crystal chandeliers"
+        ]
+      }
+    }
+  ],
+  "props": [
+    {
+      "id": "P01",
+      "name": "顾家户口本与断亲书",
+      "scale": "桌面级",
+      "summary": "撕毁的顾家户口单页与决绝断亲声明，承载真千金斩断虚伪血缘与重获新生的无上意志。",
+      "anchors": [
+        {
+          "name": "撕裂不规则纸边缘",
+          "desc": "暗红硬皮户口本被徒手撕裂成两半的参差裂口"
+        },
+        {
+          "name": "户主顾海潮烫金印鉴",
+          "desc": "纸页右上角清晰可辨的朱红户籍印章"
+        },
+        {
+          "name": "绝不相干断亲手写字迹",
+          "desc": "协议书末尾顾昭昭苍劲挺拔的绝情亲笔签名"
+        }
+      ],
+      "states": [
+        {
+          "state": "撕裂碎片散落石阶",
+          "prompt": "tabletop scale, torn fragments of a household registration booklet and signed legal document scattered on wet stone surface, dramatic macro photography, no hands, no people."
+        }
+      ],
+      "relatedScenes": [
+        "S11"
+      ],
+      "carriedBy": "顾昭昭",
+      "image": {
+        "prompt": "tabletop scale product photo on pure white background, torn red official booklet and signed separation contract paper, clean crisp studio lighting, no hands, no people.",
+        "negativePrompt": "hands, fingers, holding, people, human, messy background",
+        "sheet": "Detailed prop design sheet of torn document and booklet, tabletop scale, isolated on pure white background, multiple macro angles, ultra realistic studio rendering, no humans no hands.",
+        "tags": [
+          "document",
+          "torn paper",
+          "tabletop scale",
+          "white background"
+        ]
+      }
+    },
+    {
+      "id": "P02",
+      "name": "鬼医玄冰凤尾银针",
+      "scale": "手持级",
+      "summary": "鬼医十三针宗师本命法器，千年玄冰寒铁打造，七寸细如毫毛，起死回生逆转阴阳。",
+      "anchors": [
+        {
+          "name": "凤尾展翅镂空针柄",
+          "desc": "针尾精心雕刻成展翅欲飞的微雕立体火凤图案"
+        },
+        {
+          "name": "泛着幽蓝冰芒的针尖",
+          "desc": "七寸极细纯银针尖隐隐散发出冰魄寒气"
+        },
+        {
+          "name": "玄黑鹿皮收纳针囊",
+          "desc": "缝制有金丝十三孔卡位的柔软黑色鹿皮针袋"
+        }
+      ],
+      "states": [
+        {
+          "state": "平置于黑色丝绒托盘",
+          "prompt": "handheld scale, seven-inch slender silver acupuncture needle with intricate phoenix tail engraving resting on black velvet tray, sharp metallic glint, clean macro studio lighting, no hands, no people."
+        }
+      ],
+      "relatedScenes": [
+        "S05"
+      ],
+      "carriedBy": "顾昭昭",
+      "image": {
+        "prompt": "handheld scale product photo on pure white background, extremely fine traditional acupuncture silver needle with delicate carved phoenix tail handle resting beside opened black leather pouch, pure white background, dramatic sharp macro product photography, no hands, no humans.",
+        "negativePrompt": "hands, fingers, palm, people, human, holding needle, dirty background",
+        "sheet": "Single prop sheet on pure white background, handheld scale, front and detail views of phoenix tail silver needle and leather case, macro details of engraved tip, sharp focus, no hands.",
+        "tags": [
+          "silver needle",
+          "acupuncture",
+          "handheld scale",
+          "white background"
+        ]
+      }
+    }
+  ]
+}

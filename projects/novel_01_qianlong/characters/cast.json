@@ -1,0 +1,235 @@
+{
+  "source": "潜龙出渊：离婚当天，千亿财阀跪迎少主",
+  "lang": "zh",
+  "summary": "入赘三年的龙门少主陆沉隐忍期满，遭傲慢妻子苏晴雪逼迫净身出户。离婚当天，千亿财团跪迎少主归位，自此龙啸九天，横扫各路豪强。",
+  "characters": [
+    {
+      "id": "C01",
+      "name": "陆沉",
+      "importance": "protagonist",
+      "aliases": [
+        "少主",
+        "龙皇"
+      ],
+      "oneLiner": "龙门少主，隐姓埋名入赘三年期满，执掌万亿龙腾财阀。",
+      "persona": {
+        "gender": "男",
+        "ageRange": "26岁",
+        "identity": "龙门至尊少主",
+        "appearance": "剑眉星目，身姿修长笔挺，虽着素衣旧袍却自有一股气吞山河的凌厉霸气。",
+        "personality": [
+          "沉着冷静",
+          "杀伐果断",
+          "重情重义",
+          "深不可测"
+        ],
+        "temperament": "语调低沉平静，泰山崩于前而色不变，动辄号令群雄。",
+        "motivation": "肃清龙门叛逆，守护苍生并让背信弃义者付出代价。",
+        "arc": "从隐忍克制的入赘家庭煮夫，到冷峻果断、主宰众生生死的九天龙皇。",
+        "relationships": [
+          {
+            "name": "苏晴雪",
+            "relation": "前妻，势利自私"
+          },
+          {
+            "name": "姜月璃",
+            "relation": "下属兼红颜护法，誓死追随"
+          }
+        ],
+        "evidence": [
+          "三年之期已满，龙门当立。"
+        ]
+      },
+      "image": {
+        "prompt": "Full body character concept of a handsome 26-year-old East Asian male hero, sharp jawline, intense deep eyes, athletic physique, wearing minimalist dark charcoal tailored suit, modern Chinese urban drama style, natural skin texture, clean matte skin, cinematic 35mm film photography.",
+        "promptLocal": "英俊沉稳的26岁东亚男子全貌，下颌线条利落，眼神深邃坚毅，身着极简深炭灰修身西装，现代都市剧质感，自然哑光皮肤。",
+        "negativePrompt": "caucasian, western face, plastic smooth skin, heavy greasy skin reflection, distorted hands, bad anatomy, cartoon, anime",
+        "tags": [
+          "urban drama",
+          "protagonist",
+          "hero",
+          "matte skin",
+          "cinematic"
+        ],
+        "sheet": "Single character model sheet on ONE 16:9 landscape canvas, LEFT ZONE bust portrait, RIGHT-TOP ZONE three full body views, RIGHT-BOTTOM ZONE close-up studies of eyes and hands, pure neutral grey studio background."
+      },
+      "voice": {
+        "timbre": "磁性深沉的男中低音，饱满醇厚",
+        "pitch": "中偏低",
+        "pace": "沉稳从容，字字有千钧之力",
+        "accent": "标准普通话，咬字清晰",
+        "emotion": "威严中透着冷冽",
+        "prompt": "Deep confident male baritone voice, authoritative and composed, calm pace, crisp articulation.",
+        "referenceHint": "如执掌生杀大权的上位者，平静自若中蕴含滔天威严"
+      }
+    },
+    {
+      "id": "C02",
+      "name": "苏晴雪",
+      "importance": "protagonist",
+      "aliases": [
+        "苏总"
+      ],
+      "oneLiner": "苏氏集团高冷总裁，功利虚荣，亲手斩断真龙姻缘后追悔莫及。",
+      "persona": {
+        "gender": "女",
+        "ageRange": "25岁",
+        "identity": "苏氏集团女总裁",
+        "appearance": "容貌绝美，青丝高挽，身穿修身米白色职场套裙，眼神中透着骨子里的高傲与功利。",
+        "personality": [
+          "傲慢自大",
+          "利欲熏心",
+          "短视浅薄"
+        ],
+        "temperament": "嗓音高亢冷厉，言辞刻薄尖酸，习惯高高在上俯视他人。",
+        "motivation": "将苏氏集团挤入一线豪门，为此不惜牺牲一切真情。",
+        "arc": "从不可一世的高傲施舍，到真相揭晓后精神崩溃、悔恨跪求复合被拒。",
+        "relationships": [
+          {
+            "name": "陆沉",
+            "relation": "前夫，曾极尽贬低"
+          },
+          {
+            "name": "周恒",
+            "relation": "投机联姻对象"
+          }
+        ],
+        "evidence": [
+          "你在我眼里，不过是个一无是处的家庭煮夫！"
+        ]
+      },
+      "image": {
+        "prompt": "Full body character concept of an elegant 25-year-old East Asian female CEO, sharp beautiful features, haughty confident expression, styled updo hair, wearing cream-white tailored executive dress suit, contemporary Chinese romance drama style, realistic skin pores, natural diffuse daylight.",
+        "promptLocal": "干练美貌的25岁东亚女总裁全貌，五官精致高傲，挽发盘头，身穿米白高级定制职业套装裙，现代国产短剧审美，真实自然光影。",
+        "negativePrompt": "caucasian, exaggerated cleavage, plastic doll skin, messy hair, extra limbs, bad proportions",
+        "tags": [
+          "female CEO",
+          "urban drama",
+          "antagonist",
+          "sharp elegance"
+        ],
+        "sheet": "Single character model sheet on ONE 16:9 landscape canvas, LEFT ZONE bust portrait with cold expression, RIGHT-TOP ZONE three full body views, RIGHT-BOTTOM ZONE expression studies, neutral background."
+      },
+      "voice": {
+        "timbre": "高亢清亮的女高音，带有一丝尖锐冷硬",
+        "pitch": "偏高",
+        "pace": "急促而咄咄逼人",
+        "accent": "标准都市白领腔调",
+        "emotion": "轻蔑与不耐烦",
+        "prompt": "Sharp cold female soprano voice, haughty and impatient, assertive executive cadence.",
+        "referenceHint": "商界高傲女强人的典型声线，动辄发号施令"
+      }
+    },
+    {
+      "id": "C03",
+      "name": "周恒",
+      "importance": "protagonist",
+      "aliases": [
+        "周少"
+      ],
+      "oneLiner": "周氏财团狂妄大少，阴险伪善，屡次作死陷害陆沉最终自食恶果。",
+      "persona": {
+        "gender": "男",
+        "ageRange": "27岁",
+        "identity": "江北周氏大少爷",
+        "appearance": "油头粉面，身着深蓝暗纹昂贵西装，戴金丝眼镜，嘴角常挂着虚伪轻蔑的嗤笑。",
+        "personality": [
+          "阴险狡诈",
+          "欺软怕硬",
+          "贪婪好色"
+        ],
+        "temperament": "装腔作势，一旦失势便歇斯底里。",
+        "motivation": "吞并苏家产业，霸占苏晴雪，踩死一切敢忤逆自己的对手。",
+        "arc": "从狂妄嚣张的豪门贵公子，到阴谋屡屡败露、家族覆灭沦为丧家之犬。",
+        "relationships": [
+          {
+            "name": "陆沉",
+            "relation": "宿敌，处心积虑欲置其于死地"
+          },
+          {
+            "name": "苏晴雪",
+            "relation": "觊觎与利用的目标"
+          }
+        ],
+        "evidence": [
+          "江北商界，我周恒说了才算！"
+        ]
+      },
+      "image": {
+        "prompt": "Full body character concept of a 27-year-old wealthy East Asian playboy antagonist, slicked-back pompadour hair, wearing gold-rimmed glasses and a navy bespoke designer suit, condescending smirk, clean studio lighting, realistic contemporary drama.",
+        "promptLocal": "27岁富家阔少反派全貌，大背油头，戴金丝眼镜，身着藏青色高定西服，嘴角挂着轻蔑冷笑，现代都市写实质感。",
+        "negativePrompt": "caucasian, friendly smile, deformed hands, ugly face, cartoon, overexposed glossy skin",
+        "tags": [
+          "antagonist",
+          "wealthy heir",
+          "urban drama",
+          "sneering"
+        ],
+        "sheet": "Single character model sheet on ONE 16:9 canvas, LEFT ZONE upper body smug smirk, RIGHT-TOP ZONE three full body angles, RIGHT-BOTTOM ZONE accessory and watch close-ups, neutral studio background."
+      },
+      "voice": {
+        "timbre": "略带浮夸油滑的男中音",
+        "pitch": "中等",
+        "pace": "从容戏谑，情绪激动时转为破音嘶吼",
+        "accent": "带轻微傲慢拖音的现代都市腔",
+        "emotion": "讥讽与居高临下",
+        "prompt": "Smug cynical male tenor voice, mocking tone, arrogant pauses, explosive anger when challenged.",
+        "referenceHint": "表面优雅实则纨绔歹毒的豪门少爷腔"
+      }
+    },
+    {
+      "id": "C04",
+      "name": "姜月璃",
+      "importance": "protagonist",
+      "aliases": [
+        "姜总",
+        "朱雀使"
+      ],
+      "oneLiner": "龙腾资本万亿执行长，倾世倾城，对陆沉誓死效忠的绝美护法。",
+      "persona": {
+        "gender": "女",
+        "ageRange": "24岁",
+        "identity": "龙门四大护法之首兼龙腾资本总裁",
+        "appearance": "五官明艳绝伦，凤眸生威，黑发如瀑，身着酒红色丝绒大衣配黑色高定阔腿裤，英姿飒爽。",
+        "personality": [
+          "绝顶忠诚",
+          "铁血手腕",
+          "护短果敢"
+        ],
+        "temperament": "面对外人冷若冰霜生人勿近，面对陆沉则谦卑顺从至极。",
+        "motivation": "誓死效忠龙门少主，用无上财富与力量辅佐陆沉统领天下。",
+        "arc": "始终如一的绝顶忠诚与护短，从暗中守护到伴随陆沉威震四海。",
+        "relationships": [
+          {
+            "name": "陆沉",
+            "relation": "毕生誓死追随的至尊信仰"
+          }
+        ],
+        "evidence": [
+          "动少主一根毫毛者，诛灭全族！"
+        ]
+      },
+      "image": {
+        "prompt": "Full body character concept of a stunning 24-year-old East Asian female executive, sharp majestic phoenix eyes, long black sleek hair, wearing wine-red velvet tailored trench coat over black silk pantsuit, powerful aura, authentic contemporary Chinese drama aesthetic, soft matte skin.",
+        "promptLocal": "风华绝代的24岁东亚女性统帅全貌，凤目生威，乌黑长发，身着酒红丝绒风衣与黑色丝绸正装，强大压迫感，现代国产精品剧质感。",
+        "negativePrompt": "caucasian, weak posture, plastic doll skin, exaggerated makeup, messy lines",
+        "tags": [
+          "loyal protector",
+          "powerful female executive",
+          "majestic",
+          "matte skin"
+        ],
+        "sheet": "Single character model sheet on ONE 16:9 canvas, LEFT ZONE elegant commanding portrait, RIGHT-TOP ZONE three full body angles, RIGHT-BOTTOM ZONE rings and leather folder close-up."
+      },
+      "voice": {
+        "timbre": "清冷悦耳的御姐音，中低音区极具穿透力",
+        "pitch": "中偏低",
+        "pace": "沉稳干练，从容不迫",
+        "accent": "字正腔圆，端庄典雅",
+        "emotion": "对外冷酷肃穆，对少主敬畏温柔",
+        "prompt": "Clear commanding female alto voice, cold and authoritative to enemies, respectful and warm to master.",
+        "referenceHint": "商界铁娘子兼古武护法的绝美威严声线"
+      }
+    }
+  ]
+}

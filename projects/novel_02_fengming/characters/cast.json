@@ -1,0 +1,237 @@
+{
+  "source": "凤归豪门：真千金马甲掉光，京圈全员跪求原谅",
+  "lang": "zh",
+  "summary": "乡下认回的真千金顾昭昭遭全家偏心凌辱后手撕户口本断亲。随着鬼医十三针、顶级黑客幽灵Q、珠宝大师S等无敌马甲层层曝光，京圈首富傅时衍倾心相护，偏心全家悔恨痛哭跪地求原谅。",
+  "characters": [
+    {
+      "id": "C01",
+      "name": "顾昭昭",
+      "importance": "protagonist",
+      "aliases": [
+        "昭昭",
+        "鬼医",
+        "幽灵Q",
+        "大师S"
+      ],
+      "oneLiner": "乡下认回的真千金，神医、黑客与顶级珠宝设计师，绝代凤皇。",
+      "persona": {
+        "gender": "女",
+        "ageRange": "20岁",
+        "identity": "顾家真千金兼多重马甲大佬",
+        "appearance": "清冷出尘，肌肤胜雪，未施粉黛却难掩倾世之姿，常穿素雅风衣，眼眸清亮透彻如琉璃。",
+        "personality": [
+          "清冷孤傲",
+          "恩怨分明",
+          "杀伐果决",
+          "心怀慈悲"
+        ],
+        "temperament": "语声清澈如寒泉击玉，从容沉稳，绝不受任何道德绑架。",
+        "motivation": "拿回属于自己的一切，惩治恶毒假千金与偏心全家，施展医道济世救人。",
+        "arc": "从沉默隐忍的冷淡少女，到名动四海、主宰京圈命运的绝世凤皇。",
+        "relationships": [
+          {
+            "name": "傅时衍",
+            "relation": "命定伴侣，双向偏宠"
+          },
+          {
+            "name": "顾暖暖",
+            "relation": "宿敌假千金，处心积虑诬陷者"
+          }
+        ],
+        "evidence": [
+          "从此我与顾家恩断义绝，死生不复相见。"
+        ]
+      },
+      "image": {
+        "prompt": "Full body character concept of a beautiful 20-year-old East Asian female heroine, ethereal clear eyes, delicate porcelain facial skin, subtle matte texture, wearing an elegant minimalist beige trench coat over a white silk blouse, authentic Chinese romance drama aesthetic, cinematic 35mm film photography.",
+        "promptLocal": "绝色出尘的20岁东亚少女主角全貌，眼眸清澈灵动，细腻瓷白哑光肤质，身着米色极简风衣与白丝绸内衬，国产都市短剧审美，电影级质感。",
+        "negativePrompt": "caucasian, western face, plastic doll skin, heavy greasy skin, messy hair, extra fingers, cartoon",
+        "tags": [
+          "female protagonist",
+          "genius doctor",
+          "ethereal elegance",
+          "matte skin"
+        ],
+        "sheet": "Single character model sheet on ONE 16:9 canvas, LEFT ZONE bust portrait with calm piercing gaze, RIGHT-TOP ZONE three full body views, RIGHT-BOTTOM ZONE silver needle and hands close-up, neutral studio background."
+      },
+      "voice": {
+        "timbre": "清澈如泉水的女中高音，空灵而带有力量感",
+        "pitch": "中偏高",
+        "pace": "从容不迫，吐字清晰珠圆玉润",
+        "accent": "标准普通话，典雅温婉",
+        "emotion": "清冷威严中带着淡淡的超然",
+        "prompt": "Crystal clear female mezzo-soprano voice, calm and resolute, crisp enunciation.",
+        "referenceHint": "如清泉流过幽谷的绝世神医嗓音"
+      }
+    },
+    {
+      "id": "C02",
+      "name": "傅时衍",
+      "importance": "protagonist",
+      "aliases": [
+        "傅爷",
+        "傅总"
+      ],
+      "oneLiner": "京圈掌权人，禁欲冷血手腕通天，唯独对顾昭昭极尽偏宠庇护。",
+      "persona": {
+        "gender": "男",
+        "ageRange": "27岁",
+        "identity": "傅氏财阀至尊家主",
+        "appearance": "容颜如神祇雕琢，鼻梁挺拔，常着纯黑手工高定三件套西装，气场森冷如渊，令人望而生畏。",
+        "personality": [
+          "冷酷禁欲",
+          "护短狂魔",
+          "深沉内敛"
+        ],
+        "temperament": "嗓音低醇暗哑，话语极少但言出法随，对敌人手段极其残暴。",
+        "motivation": "倾尽全族之力守护顾昭昭，扫平一切敢于刁难她的人。",
+        "arc": "从冷眼旁观的京圈霸主，到为顾昭昭撑腰扫平一切障碍的忠犬帝王。",
+        "relationships": [
+          {
+            "name": "顾昭昭",
+            "relation": "挚爱神明，救命恩人"
+          }
+        ],
+        "evidence": [
+          "动顾昭昭者，便是与整个京圈傅家为敌！"
+        ]
+      },
+      "image": {
+        "prompt": "Full body character concept of a powerful 27-year-old East Asian male billionaire, razor-sharp jawline, deep hooded obsidian eyes, tall imposing build, wearing bespoke three-piece midnight black woolen suit, luxury urban drama style, natural skin pores, matte healthy skin.",
+        "promptLocal": "威严霸气的27岁东亚财阀家主全貌，下颌线条如刀削，深邃黑曜石眼眸，身着黑呢料手工三件套西装，高端都市豪门剧审美，哑光质感。",
+        "negativePrompt": "caucasian, oily greasy reflection, anime, feminine, disfigured",
+        "tags": [
+          "billionaire protector",
+          "male lead",
+          "imposing",
+          "bespoke suit"
+        ],
+        "sheet": "Single character model sheet on ONE 16:9 canvas, LEFT ZONE commanding bust portrait, RIGHT-TOP ZONE three full body angles, RIGHT-BOTTOM ZONE luxury cufflinks and black umbrella close-up, studio backdrop."
+      },
+      "voice": {
+        "timbre": "磁性深沉的纯正男低音，威严霸道",
+        "pitch": "极低沉",
+        "pace": "沉稳缓慢，气场磅礴",
+        "accent": "京圈纯正低沉腔调",
+        "emotion": "冷酷中蕴含无限深情与偏袒",
+        "prompt": "Deep commanding male bass voice, authoritative and brooding, intimate and gentle only when addressing lover.",
+        "referenceHint": "至尊上位者独有的生杀大权低音炮"
+      }
+    },
+    {
+      "id": "C03",
+      "name": "顾暖暖",
+      "importance": "protagonist",
+      "aliases": [
+        "暖暖"
+      ],
+      "oneLiner": "顾家偏宠的假千金，绿茶心机女，屡次构陷真千金终食恶果。",
+      "persona": {
+        "gender": "女",
+        "ageRange": "20岁",
+        "identity": "顾家养女，假千金",
+        "appearance": "长相清纯楚楚可怜，常穿粉白蕾丝蓬蓬裙，眼含水雾，最擅长在人前伪装无辜白莲花。",
+        "personality": [
+          "虚伪恶毒",
+          "自私贪婪",
+          "嫉妒成狂"
+        ],
+        "temperament": "说话娇滴滴，善于以退为进，暗地里手段下作狠毒。",
+        "motivation": "保住自己在顾家的千金地位，彻底毁掉真千金顾昭昭。",
+        "arc": "从全家团宠众星捧月，到谎言接连戳穿身败名裂沦为阶下囚。",
+        "relationships": [
+          {
+            "name": "顾昭昭",
+            "relation": "眼中钉肉中刺"
+          },
+          {
+            "name": "顾夫人",
+            "relation": "被其玩弄于股掌的愚蠢养母"
+          }
+        ],
+        "evidence": [
+          "妈妈，姐姐肯定不是故意偷手镯的，求您别怪她！"
+        ]
+      },
+      "image": {
+        "prompt": "Full body character concept of a manipulative 20-year-old East Asian female antagonist, innocent-looking doe eyes, feigned sweet fragile expression, wearing a pastel pink lace designer dress, contemporary Chinese drama aesthetic, matte skin tone.",
+        "promptLocal": "外表清纯实则阴险的20岁假千金全貌，鹿眼水汪汪，佯装柔弱委屈神态，身穿浅粉蕾丝名媛裙，现代国产短剧审美，哑光自然肤色。",
+        "negativePrompt": "caucasian, ugly, honest expression, wrinkled dress, plastic look",
+        "tags": [
+          "antagonist",
+          "fake heiress",
+          "manipulative",
+          "pastel dress"
+        ],
+        "sheet": "Single character model sheet on ONE 16:9 canvas, LEFT ZONE innocent front portrait, RIGHT-TOP ZONE three full body angles, RIGHT-BOTTOM ZONE fake jewelry and teary eyes studies."
+      },
+      "voice": {
+        "timbre": "娇柔清甜的少女音，带有一丝做作的颤音",
+        "pitch": "偏高偏尖",
+        "pace": "娇柔缓慢，急躁时骤转尖利",
+        "accent": "娇嗲的都市名媛腔",
+        "emotion": "伪装无辜与隐蔽的歹毒",
+        "prompt": "Sweet fragile female voice, delicate and airy, reveals shrill anger when exposed.",
+        "referenceHint": "标准白莲花绿茶声线，擅长哭腔撒娇"
+      }
+    },
+    {
+      "id": "C04",
+      "name": "顾夫人",
+      "importance": "protagonist",
+      "aliases": [
+        "母亲",
+        "顾太"
+      ],
+      "oneLiner": "顾昭昭亲生母亲，虚荣盲目偏袒假千金，逼女断亲后痛哭悔恨。",
+      "persona": {
+        "gender": "女",
+        "ageRange": "48岁",
+        "identity": "顾氏豪门当家主母",
+        "appearance": "保养得宜，妆容浓艳，穿金戴银身着昂贵紫罗兰色刺绣旗袍，眼角眉梢尽是尖酸与刻薄。",
+        "personality": [
+          "虚荣刻薄",
+          "偏听偏信",
+          "自私冷血"
+        ],
+        "temperament": "嗓门尖锐，动辄以母亲身份压人，极好面子。",
+        "motivation": "维护顾家豪门体面，逼真千金为假千金铺路联姻。",
+        "arc": "从盛气凌人逼女断亲，到得知真千金通天身世后发狂追悔痛哭求见。",
+        "relationships": [
+          {
+            "name": "顾昭昭",
+            "relation": "亲生女儿，却极尽苛责"
+          },
+          {
+            "name": "顾暖暖",
+            "relation": "溺爱盲从的养女"
+          }
+        ],
+        "evidence": [
+          "我怎么会生出你这么个丢人现眼的村姑！"
+        ]
+      },
+      "image": {
+        "prompt": "Full body character concept of a haughty 48-year-old East Asian wealthy matriarch, elaborately coiffed hair, heavy aristocratic makeup, sharp critical frown, wearing an expensive violet embroidered silk qipao with emerald brooches, modern Chinese family drama style, matte skin.",
+        "promptLocal": "傲慢刻薄的48岁豪门阔太全貌，高盘发髻，浓艳妆容，神态尖酸严苛，身着奢华紫罗兰刺绣真丝旗袍配翡翠胸针，现代都市家庭剧风格。",
+        "negativePrompt": "caucasian, kind smile, messy clothes, poor, flat lighting",
+        "tags": [
+          "wealthy mother",
+          "antagonist",
+          "qipao",
+          "haughty matriarch"
+        ],
+        "sheet": "Single character model sheet on ONE 16:9 canvas, LEFT ZONE angry scowling bust portrait, RIGHT-TOP ZONE three full body angles, RIGHT-BOTTOM ZONE emerald rings and fan close-ups."
+      },
+      "voice": {
+        "timbre": "尖利洪亮的中年女声，压迫感十足",
+        "pitch": "高亢尖锐",
+        "pace": "连珠炮般逼仄迅猛",
+        "accent": "豪门阔太颐指气使腔调",
+        "emotion": "嫌弃、愤怒与歇斯底里",
+        "prompt": "Sharp haughty middle-aged female voice, domineering and impatient, piercing volume.",
+        "referenceHint": "盛气凌人的偏心恶母声线"
+      }
+    }
+  ]
+}

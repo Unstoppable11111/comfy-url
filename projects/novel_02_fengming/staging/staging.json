@@ -1,0 +1,848 @@
+{
+  "source": "凤归豪门：真千金马甲掉光，京圈全员跪求原谅",
+  "lang": "zh",
+  "locations": [
+    {
+      "sceneId": "S01",
+      "name": "顾家公馆大厅",
+      "readFrom": "prompt",
+      "items": [
+        {
+          "name": "北墙汉白玉浮雕壁炉",
+          "alt": "North Marble Fireplace",
+          "plan": [
+            0.3,
+            0.05,
+            0.7,
+            0.15
+          ],
+          "on": false
+        },
+        {
+          "name": "欧式高背红绒三人沙发",
+          "alt": "Classic Crimson Triple Sofa",
+          "plan": [
+            0.25,
+            0.25,
+            0.75,
+            0.45
+          ],
+          "on": true
+        },
+        {
+          "name": "描金实木长茶几",
+          "alt": "Gilded Wood Long Table",
+          "plan": [
+            0.3,
+            0.5,
+            0.7,
+            0.65
+          ],
+          "on": false
+        },
+        {
+          "name": "西侧单人扶手皮椅",
+          "alt": "West Armchair",
+          "plan": [
+            0.1,
+            0.35,
+            0.25,
+            0.55
+          ],
+          "on": true
+        },
+        {
+          "name": "东侧双向旋转楼梯口",
+          "alt": "East Grand Staircase Base",
+          "plan": [
+            0.75,
+            0.35,
+            0.95,
+            0.75
+          ],
+          "on": true
+        },
+        {
+          "name": "南侧入户双扇大铜门",
+          "alt": "South Entrance Brass Doors",
+          "plan": [
+            0.35,
+            0.85,
+            0.65,
+            0.98
+          ],
+          "on": true
+        }
+      ]
+    },
+    {
+      "sceneId": "S11",
+      "name": "暴雨夜顾家雕花铁门外",
+      "readFrom": "prompt",
+      "items": [
+        {
+          "name": "北侧铸铁雕花大门",
+          "alt": "North Wrought Iron Gate",
+          "plan": [
+            0.2,
+            0.05,
+            0.8,
+            0.15
+          ],
+          "on": false
+        },
+        {
+          "name": "东侧顾公馆石柱",
+          "alt": "East Stone Pillar",
+          "plan": [
+            0.8,
+            0.1,
+            0.95,
+            0.35
+          ],
+          "on": false
+        },
+        {
+          "name": "雨水飞溅开阔路面",
+          "alt": "Rain-soaked Asphalt Road",
+          "plan": [
+            0.1,
+            0.4,
+            0.9,
+            0.75
+          ],
+          "on": true
+        },
+        {
+          "name": "南端红旗国宾专车",
+          "alt": "South VIP Limousine",
+          "plan": [
+            0.25,
+            0.8,
+            0.75,
+            0.95
+          ],
+          "on": true
+        }
+      ]
+    },
+    {
+      "sceneId": "S04",
+      "name": "顾昭昭云水间庄园",
+      "readFrom": "prompt",
+      "items": [
+        {
+          "name": "北侧太湖石镜面水池",
+          "alt": "North Reflective Water Pond",
+          "plan": [
+            0.2,
+            0.05,
+            0.8,
+            0.3
+          ],
+          "on": false
+        },
+        {
+          "name": "中央沉香老木茶台",
+          "alt": "Central Wooden Tea Table",
+          "plan": [
+            0.3,
+            0.4,
+            0.7,
+            0.6
+          ],
+          "on": false
+        },
+        {
+          "name": "主位仿古太师圈椅",
+          "alt": "Master Antique Armchair",
+          "plan": [
+            0.4,
+            0.3,
+            0.6,
+            0.4
+          ],
+          "on": true
+        },
+        {
+          "name": "客位软垫竹靠椅",
+          "alt": "Guest Bamboo Chair",
+          "plan": [
+            0.4,
+            0.6,
+            0.6,
+            0.7
+          ],
+          "on": true
+        },
+        {
+          "name": "南端全通透水上平台",
+          "alt": "South Overwater Deck",
+          "plan": [
+            0.1,
+            0.75,
+            0.9,
+            0.95
+          ],
+          "on": true
+        }
+      ]
+    },
+    {
+      "sceneId": "S05",
+      "name": "京城第一私立重症监护室",
+      "readFrom": "prompt",
+      "items": [
+        {
+          "name": "北墙多参数监护仪显示屏",
+          "alt": "North Vitals Monitor Screens",
+          "plan": [
+            0.2,
+            0.05,
+            0.8,
+            0.15
+          ],
+          "on": false
+        },
+        {
+          "name": "中央电动重症护理病床",
+          "alt": "Central Electronic ICU Bed",
+          "plan": [
+            0.3,
+            0.25,
+            0.7,
+            0.65
+          ],
+          "on": true
+        },
+        {
+          "name": "东侧不锈钢器械推车",
+          "alt": "East Stainless Tool Cart",
+          "plan": [
+            0.75,
+            0.3,
+            0.9,
+            0.6
+          ],
+          "on": false
+        },
+        {
+          "name": "西侧家属探视软椅",
+          "alt": "West Visitor Chair",
+          "plan": [
+            0.1,
+            0.35,
+            0.25,
+            0.55
+          ],
+          "on": true
+        },
+        {
+          "name": "南侧自动感应防弹玻璃门",
+          "alt": "South Automatic Glass Door",
+          "plan": [
+            0.35,
+            0.85,
+            0.65,
+            0.98
+          ],
+          "on": true
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "ep": 1,
+      "scene": 1,
+      "sceneId": "S01",
+      "lighting": "室内明亮日光",
+      "cast": [
+        {
+          "id": "C01",
+          "name": "顾昭昭"
+        },
+        {
+          "id": "C03",
+          "name": "顾暖暖"
+        },
+        {
+          "id": "C04",
+          "name": "顾夫人"
+        },
+        {
+          "id": "C09",
+          "name": "顾家管家"
+        }
+      ],
+      "places": [
+        {
+          "id": "C01",
+          "name": "顾昭昭",
+          "present": true,
+          "item": "描金实木长茶几",
+          "side": "south",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "north"
+        },
+        {
+          "id": "C03",
+          "name": "顾暖暖",
+          "present": true,
+          "item": "欧式高背红绒三人沙发",
+          "side": "on",
+          "along": 0.3,
+          "posture": "sit",
+          "facing": "south"
+        },
+        {
+          "id": "C04",
+          "name": "顾夫人",
+          "present": true,
+          "item": "描金实木长茶几",
+          "side": "north",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "south"
+        },
+        {
+          "id": "C09",
+          "name": "顾家管家",
+          "present": true,
+          "item": "南侧入户双扇大铜门",
+          "side": "north",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "north"
+        }
+      ],
+      "extras": 0,
+      "extrasWhere": null,
+      "why": "第1集开场戏剧对峙站位，确立女频真假千金与身份逆转格局"
+    },
+    {
+      "ep": 2,
+      "scene": 1,
+      "sceneId": "S11",
+      "lighting": "暴雨夜雷电交加",
+      "cast": [
+        {
+          "id": "C01",
+          "name": "顾昭昭"
+        },
+        {
+          "id": "C02",
+          "name": "傅时衍"
+        },
+        {
+          "id": "C04",
+          "name": "顾夫人"
+        }
+      ],
+      "places": [
+        {
+          "id": "C01",
+          "name": "顾昭昭",
+          "present": true,
+          "item": "雨水飞溅开阔路面",
+          "side": "on",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "south"
+        },
+        {
+          "id": "C02",
+          "name": "傅时衍",
+          "present": true,
+          "item": "南端红旗国宾专车",
+          "side": "north",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "north"
+        },
+        {
+          "id": "C04",
+          "name": "顾夫人",
+          "present": true,
+          "item": "北侧铸铁雕花大门",
+          "side": "south",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "south"
+        }
+      ],
+      "extras": 0,
+      "extrasWhere": null,
+      "why": "第2集开场戏剧对峙站位，确立女频真假千金与身份逆转格局"
+    },
+    {
+      "ep": 3,
+      "scene": 1,
+      "sceneId": "S04",
+      "lighting": "静谧晨光薄雾",
+      "cast": [
+        {
+          "id": "C01",
+          "name": "顾昭昭"
+        },
+        {
+          "id": "C02",
+          "name": "傅时衍"
+        }
+      ],
+      "places": [
+        {
+          "id": "C01",
+          "name": "顾昭昭",
+          "present": true,
+          "item": "主位仿古太师圈椅",
+          "side": "on",
+          "along": 0.5,
+          "posture": "sit",
+          "facing": "south"
+        },
+        {
+          "id": "C02",
+          "name": "傅时衍",
+          "present": true,
+          "item": "客位软垫竹靠椅",
+          "side": "on",
+          "along": 0.5,
+          "posture": "sit",
+          "facing": "north"
+        }
+      ],
+      "extras": 0,
+      "extrasWhere": null,
+      "why": "第3集开场戏剧对峙站位，确立女频真假千金与身份逆转格局"
+    },
+    {
+      "ep": 4,
+      "scene": 1,
+      "sceneId": "S04",
+      "lighting": "静谧晨光薄雾",
+      "cast": [
+        {
+          "id": "C01",
+          "name": "顾昭昭"
+        },
+        {
+          "id": "C02",
+          "name": "傅时衍"
+        }
+      ],
+      "places": [
+        {
+          "id": "C01",
+          "name": "顾昭昭",
+          "present": true,
+          "item": "主位仿古太师圈椅",
+          "side": "on",
+          "along": 0.5,
+          "posture": "sit",
+          "facing": "south"
+        },
+        {
+          "id": "C02",
+          "name": "傅时衍",
+          "present": true,
+          "item": "客位软垫竹靠椅",
+          "side": "on",
+          "along": 0.5,
+          "posture": "sit",
+          "facing": "north"
+        }
+      ],
+      "extras": 0,
+      "extrasWhere": null,
+      "why": "第4集开场戏剧对峙站位，确立女频真假千金与身份逆转格局"
+    },
+    {
+      "ep": 5,
+      "scene": 1,
+      "sceneId": "S01",
+      "lighting": "室内明亮日光",
+      "cast": [
+        {
+          "id": "C01",
+          "name": "顾昭昭"
+        },
+        {
+          "id": "C03",
+          "name": "顾暖暖"
+        },
+        {
+          "id": "C04",
+          "name": "顾夫人"
+        }
+      ],
+      "places": [
+        {
+          "id": "C01",
+          "name": "顾昭昭",
+          "present": false,
+          "item": null,
+          "side": null,
+          "along": null,
+          "posture": null,
+          "facing": null
+        },
+        {
+          "id": "C03",
+          "name": "顾暖暖",
+          "present": true,
+          "item": "欧式高背红绒三人沙发",
+          "side": "on",
+          "along": 0.5,
+          "posture": "sit",
+          "facing": "south"
+        },
+        {
+          "id": "C04",
+          "name": "顾夫人",
+          "present": true,
+          "item": "描金实木长茶几",
+          "side": "north",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "south"
+        }
+      ],
+      "extras": 0,
+      "extrasWhere": null,
+      "why": "第5集开场戏剧对峙站位，确立女频真假千金与身份逆转格局"
+    },
+    {
+      "ep": 6,
+      "scene": 1,
+      "sceneId": "S05",
+      "lighting": "冷静专业无影灯",
+      "cast": [
+        {
+          "id": "C01",
+          "name": "顾昭昭"
+        },
+        {
+          "id": "C03",
+          "name": "顾暖暖"
+        },
+        {
+          "id": "C07",
+          "name": "顾老太爷"
+        },
+        {
+          "id": "C11",
+          "name": "主治专家"
+        }
+      ],
+      "places": [
+        {
+          "id": "C01",
+          "name": "顾昭昭",
+          "present": true,
+          "item": "中央电动重症护理病床",
+          "side": "east",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "west"
+        },
+        {
+          "id": "C03",
+          "name": "顾暖暖",
+          "present": true,
+          "item": "南侧自动感应防弹玻璃门",
+          "side": "north",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "north"
+        },
+        {
+          "id": "C07",
+          "name": "顾老太爷",
+          "present": true,
+          "item": "中央电动重症护理病床",
+          "side": "on",
+          "along": 0.5,
+          "posture": "sit",
+          "facing": "south"
+        },
+        {
+          "id": "C11",
+          "name": "主治专家",
+          "present": true,
+          "item": "中央电动重症护理病床",
+          "side": "west",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "east"
+        }
+      ],
+      "extras": 0,
+      "extrasWhere": null,
+      "why": "第6集开场戏剧对峙站位，确立女频真假千金与身份逆转格局"
+    },
+    {
+      "ep": 7,
+      "scene": 1,
+      "sceneId": "S05",
+      "lighting": "冷静专业无影灯",
+      "cast": [
+        {
+          "id": "C01",
+          "name": "顾昭昭"
+        },
+        {
+          "id": "C03",
+          "name": "顾暖暖"
+        },
+        {
+          "id": "C07",
+          "name": "顾老太爷"
+        },
+        {
+          "id": "C11",
+          "name": "主治专家"
+        }
+      ],
+      "places": [
+        {
+          "id": "C01",
+          "name": "顾昭昭",
+          "present": true,
+          "item": "中央电动重症护理病床",
+          "side": "east",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "west"
+        },
+        {
+          "id": "C03",
+          "name": "顾暖暖",
+          "present": true,
+          "item": "南侧自动感应防弹玻璃门",
+          "side": "north",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "north"
+        },
+        {
+          "id": "C07",
+          "name": "顾老太爷",
+          "present": true,
+          "item": "中央电动重症护理病床",
+          "side": "on",
+          "along": 0.5,
+          "posture": "sit",
+          "facing": "south"
+        },
+        {
+          "id": "C11",
+          "name": "主治专家",
+          "present": true,
+          "item": "中央电动重症护理病床",
+          "side": "west",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "east"
+        }
+      ],
+      "extras": 0,
+      "extrasWhere": null,
+      "why": "第7集开场戏剧对峙站位，确立女频真假千金与身份逆转格局"
+    },
+    {
+      "ep": 8,
+      "scene": 1,
+      "sceneId": "S05",
+      "lighting": "冷静专业无影灯",
+      "cast": [
+        {
+          "id": "C01",
+          "name": "顾昭昭"
+        },
+        {
+          "id": "C03",
+          "name": "顾暖暖"
+        },
+        {
+          "id": "C04",
+          "name": "顾夫人"
+        },
+        {
+          "id": "C07",
+          "name": "顾老太爷"
+        },
+        {
+          "id": "C11",
+          "name": "主治专家"
+        }
+      ],
+      "places": [
+        {
+          "id": "C01",
+          "name": "顾昭昭",
+          "present": true,
+          "item": "中央电动重症护理病床",
+          "side": "east",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "south"
+        },
+        {
+          "id": "C03",
+          "name": "顾暖暖",
+          "present": true,
+          "item": "南侧自动感应防弹玻璃门",
+          "side": "north",
+          "along": 0.3,
+          "posture": "stand",
+          "facing": "north"
+        },
+        {
+          "id": "C04",
+          "name": "顾夫人",
+          "present": true,
+          "item": "南侧自动感应防弹玻璃门",
+          "side": "north",
+          "along": 0.7,
+          "posture": "stand",
+          "facing": "north"
+        },
+        {
+          "id": "C07",
+          "name": "顾老太爷",
+          "present": true,
+          "item": "中央电动重症护理病床",
+          "side": "on",
+          "along": 0.5,
+          "posture": "sit",
+          "facing": "south"
+        },
+        {
+          "id": "C11",
+          "name": "主治专家",
+          "present": true,
+          "item": "西侧家属探视软椅",
+          "side": "on",
+          "along": 0.5,
+          "posture": "sit",
+          "facing": "east"
+        }
+      ],
+      "extras": 0,
+      "extrasWhere": null,
+      "why": "第8集开场戏剧对峙站位，确立女频真假千金与身份逆转格局"
+    },
+    {
+      "ep": 9,
+      "scene": 1,
+      "sceneId": "S01",
+      "lighting": "室内明亮日光",
+      "cast": [
+        {
+          "id": "C01",
+          "name": "顾昭昭"
+        },
+        {
+          "id": "C03",
+          "name": "顾暖暖"
+        },
+        {
+          "id": "C04",
+          "name": "顾夫人"
+        }
+      ],
+      "places": [
+        {
+          "id": "C01",
+          "name": "顾昭昭",
+          "present": true,
+          "item": "东侧双向旋转楼梯口",
+          "side": "on",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "west"
+        },
+        {
+          "id": "C03",
+          "name": "顾暖暖",
+          "present": true,
+          "item": "描金实木长茶几",
+          "side": "south",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "north"
+        },
+        {
+          "id": "C04",
+          "name": "顾夫人",
+          "present": true,
+          "item": "欧式高背红绒三人沙发",
+          "side": "on",
+          "along": 0.5,
+          "posture": "sit",
+          "facing": "south"
+        }
+      ],
+      "extras": 0,
+      "extrasWhere": null,
+      "why": "第9集开场戏剧对峙站位，确立女频真假千金与身份逆转格局"
+    },
+    {
+      "ep": 10,
+      "scene": 1,
+      "sceneId": "S01",
+      "lighting": "室内明亮日光",
+      "cast": [
+        {
+          "id": "C01",
+          "name": "顾昭昭"
+        },
+        {
+          "id": "C03",
+          "name": "顾暖暖"
+        },
+        {
+          "id": "C04",
+          "name": "顾夫人"
+        }
+      ],
+      "places": [
+        {
+          "id": "C01",
+          "name": "顾昭昭",
+          "present": true,
+          "item": "东侧双向旋转楼梯口",
+          "side": "on",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "west"
+        },
+        {
+          "id": "C03",
+          "name": "顾暖暖",
+          "present": true,
+          "item": "描金实木长茶几",
+          "side": "south",
+          "along": 0.5,
+          "posture": "stand",
+          "facing": "north"
+        },
+        {
+          "id": "C04",
+          "name": "顾夫人",
+          "present": true,
+          "item": "欧式高背红绒三人沙发",
+          "side": "on",
+          "along": 0.5,
+          "posture": "sit",
+          "facing": "south"
+        }
+      ],
+      "extras": 0,
+      "extrasWhere": null,
+      "why": "第10集开场戏剧对峙站位，确立女频真假千金与身份逆转格局"
+    }
+  ]
+}
