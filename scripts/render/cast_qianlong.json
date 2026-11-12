@@ -1,0 +1,33 @@
+{
+ "project": "novel_01_qianlong",
+ "shots": [
+  {
+   "id": "C01",
+   "ep": 0,
+   "prompt": "Full body character concept of a handsome 26-year-old East Asian male hero, sharp jawline, intense deep eyes, athletic physique, wearing minimalist dark charcoal tailored suit, modern Chinese urban drama style, natural skin texture, clean matte skin, cinematic 35mm film photography.。剑眉星目，身姿修长笔挺，虽着素衣旧袍却自有一股气吞山河的凌厉霸气。，正面全身站姿，中性浅灰纯色背景，影棚柔光，服装与发型细节清晰，定妆照，高清写实",
+   "w": 832,
+   "h": 1216
+  },
+  {
+   "id": "C02",
+   "ep": 0,
+   "prompt": "Full body character concept of an elegant 25-year-old East Asian female CEO, sharp beautiful features, haughty confident expression, styled updo hair, wearing cream-white tailored executive dress suit, contemporary Chinese romance drama style, realistic skin pores, natural diffuse daylight.。容貌绝美，青丝高挽，身穿修身米白色职场套裙，眼神中透着骨子里的高傲与功利。，正面全身站姿，中性浅灰纯色背景，影棚柔光，服装与发型细节清晰，定妆照，高清写实",
+   "w": 832,
+   "h": 1216
+  },
+  {
+   "id": "C03",
+   "ep": 0,
+   "prompt": "Full body character concept of a 27-year-old wealthy East Asian playboy antagonist, slicked-back pompadour hair, wearing gold-rimmed glasses and a navy bespoke designer suit, condescending smirk, clean studio lighting, realistic contemporary drama.。油头粉面，身着深蓝暗纹昂贵西装，戴金丝眼镜，嘴角常挂着虚伪轻蔑的嗤笑。，正面全身站姿，中性浅灰纯色背景，影棚柔光，服装与发型细节清晰，定妆照，高清写实",
+   "w": 832,
+   "h": 1216
+  },
+  {
+   "id": "C04",
+   "ep": 0,
+   "prompt": "Full body character concept of a stunning 24-year-old East Asian female executive, sharp majestic phoenix eyes, long black sleek hair, wearing wine-red velvet tailored trench coat over black silk pantsuit, powerful aura, authentic contemporary Chinese drama aesthetic, soft matte skin.。五官明艳绝伦，凤眸生威，黑发如瀑，身着酒红色丝绒大衣配黑色高定阔腿裤，英姿飒爽。，正面全身站姿，中性浅灰纯色背景，影棚柔光，服装与发型细节清晰，定妆照，高清写实",
+   "w": 832,
+   "h": 1216
+  }
+ ]
+}

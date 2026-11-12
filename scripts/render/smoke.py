@@ -1,6 +1,6 @@
-import json, time, urllib.request
+import json, os, time, urllib.request
 
-BASE = "http://127.0.0.1:8081"
+BASE = os.environ.get("COMFY", "http://127.0.0.1:8081").rstrip("/")
 
 def post(path, payload):
     data = json.dumps(payload).encode()

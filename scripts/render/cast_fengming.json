@@ -1,0 +1,33 @@
+{
+ "project": "novel_02_fengming",
+ "shots": [
+  {
+   "id": "C01",
+   "ep": 0,
+   "prompt": "Full body character concept of a beautiful 20-year-old East Asian female heroine, ethereal clear eyes, delicate porcelain facial skin, subtle matte texture, wearing an elegant minimalist beige trench coat over a white silk blouse, authentic Chinese romance drama aesthetic, cinematic 35mm film photography.。清冷出尘，肌肤胜雪，未施粉黛却难掩倾世之姿，常穿素雅风衣，眼眸清亮透彻如琉璃。，正面全身站姿，中性浅灰纯色背景，影棚柔光，服装与发型细节清晰，定妆照，高清写实",
+   "w": 832,
+   "h": 1216
+  },
+  {
+   "id": "C02",
+   "ep": 0,
+   "prompt": "Full body character concept of a powerful 27-year-old East Asian male billionaire, razor-sharp jawline, deep hooded obsidian eyes, tall imposing build, wearing bespoke three-piece midnight black woolen suit, luxury urban drama style, natural skin pores, matte healthy skin.。容颜如神祇雕琢，鼻梁挺拔，常着纯黑手工高定三件套西装，气场森冷如渊，令人望而生畏。，正面全身站姿，中性浅灰纯色背景，影棚柔光，服装与发型细节清晰，定妆照，高清写实",
+   "w": 832,
+   "h": 1216
+  },
+  {
+   "id": "C03",
+   "ep": 0,
+   "prompt": "Full body character concept of a manipulative 20-year-old East Asian female antagonist, innocent-looking doe eyes, feigned sweet fragile expression, wearing a pastel pink lace designer dress, contemporary Chinese drama aesthetic, matte skin tone.。长相清纯楚楚可怜，常穿粉白蕾丝蓬蓬裙，眼含水雾，最擅长在人前伪装无辜白莲花。，正面全身站姿，中性浅灰纯色背景，影棚柔光，服装与发型细节清晰，定妆照，高清写实",
+   "w": 832,
+   "h": 1216
+  },
+  {
+   "id": "C04",
+   "ep": 0,
+   "prompt": "Full body character concept of a haughty 48-year-old East Asian wealthy matriarch, elaborately coiffed hair, heavy aristocratic makeup, sharp critical frown, wearing an expensive violet embroidered silk qipao with emerald brooches, modern Chinese family drama style, matte skin.。保养得宜，妆容浓艳，穿金戴银身着昂贵紫罗兰色刺绣旗袍，眼角眉梢尽是尖酸与刻薄。，正面全身站姿，中性浅灰纯色背景，影棚柔光，服装与发型细节清晰，定妆照，高清写实",
+   "w": 832,
+   "h": 1216
+  }
+ ]
+}
