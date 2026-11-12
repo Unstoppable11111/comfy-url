@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """一条命令跑完一集：建任务 → 上传 → 生成 → 自动下载到本地。
 
@@ -24,8 +24,9 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 from term import Term  # noqa: E402
 import push as pushmod  # noqa: E402
+from sjconfig import get as cfg_get  # noqa: E402
 
-BASE = os.environ.get("DRAMA_BASE", "http://xn-b.suanjiayun.com:61146")
+BASE = os.environ.get("DRAMA_BASE") or cfg_get("DRAMA_BASE") or "http://xn-b.suanjiayun.com:61146"
 OUT_ROOT = "/ComfyUI/output/drama"
 
 

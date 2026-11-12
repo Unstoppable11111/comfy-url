@@ -80,3 +80,40 @@
   - **DO**：针对 AI 短剧工业化工作流，核心模型（`qwen_image_2.1_int8_convrot.safetensors` 6.9GB + `qwen3vl_8b_int8_convrot.safetensors` 8.9GB + `qwen_image_2.1_vae_bf16.safetensors` 645MB，总共约 16.5GB）应直接下载存放在**系统盘** `/ComfyUI/models/` 对应子目录中（系统盘 30GB 空间完全充裕）；
   - **DO**：下载完成后，在控制台点击**「保存镜像」**，将其固化至算家云赠送的 **50GB 免费项目镜像库**中；随后直接**释放（销毁）**实例，彻底实现**0 关机存储费、永久云端保存、下次开机 0 秒即用大模型**。
 
+
+### 8. Qwen-Image 2.1 有 ComfyUI 版本门槛，手工移植模块必然崩溃
+- **错误现象**：在旧镜像（ComfyUI v0.7.0 / v0.33.1）里跑 Qwen-Image 2.1，启动报 `ImportError: cannot import name 'modulate'`，或加载模型时报 `qwen_image21` 模块不存在。
+- **根本原因**：Qwen-Image 2.1 是 2026-11 发布的新模型，ComfyUI **v0.44 起**才原生支持（`comfy/ldm/qwen_image21/`、`comfy/text_encoders/qwen_image21.py`、`TextEncodeQwenImage21` 节点）。旧版把新版两个文件手工拷进去，只解决了"文件存在"，没有解决节点注册、`supported_models` 识别与 `comfy-kitchen` 的 int8 卷积算子，必然崩。
+- **正确做法与约束（Dos & Don'ts）**：
+  - **DON'T**：严禁把 `qwen_image21.py` 之类的模块单独拷贝到旧版 ComfyUI 里"打补丁"；
+  - **DO**：`cd /ComfyUI && git fetch --depth 1 origin tag v0.44.2 && git checkout -f v0.44.2`，再 `pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple`；
+  - **DO**：清华源缺 `comfyui-workflow-templates-media-assets-02` 时，先 `grep -v '^comfyui-workflow-templates' requirements.txt > req.txt` 过滤后安装，再 `pip install --no-deps comfyui-workflow-templates` 补包本体；
+  - **DO**：升级后必须重装 `comfy-kitchen`（0.2.40）与 `comfyui-frontend-package`（1.57.6），否则 int8_convrot 权重加载失败。
+
+### 9. Qwen-Image 2.1 参考图必须写成"编辑指令"，否则传了也白传
+- **错误现象**：给 `TextEncodeQwenImage21` 传了定妆照，生成的人物却完全换了一张脸（测试时参考图是清秀男主，产出是大胡子中年男）。
+- **根本原因**：
+  1. 提示词写成描述句（"同一个角色站在客厅中"），模型按纯文生图处理，参考图只被当作弱风格提示；
+  2. `TextEncodeQwenImage21` 的参考图在 API 里是**字典**，写成平铺的 `image_1` 会直接报错；不接 `vae` 时参考图不进潜空间。
+- **正确做法与约束（Dos & Don'ts）**：
+  - **DO**：API 传参必须是
+    ```json
+    "images": {"image_1": ["LoadImage节点", 0], "image_2": ["LoadImage节点", 0]},
+    "vae": ["VAELoader", 0]
+    ```
+  - **DO**：提示词必须以**编辑指令**开头：`保持参考图中人物（陆沉）的长相、发型、体型和服装完全不变，把人物置于苏家别墅客厅（…）中。{景别}，{镜头语言}，竖屏9:16，电影感，写实摄影`；
+  - **DO**：定妆照统一为 2:3 竖版全身、浅灰纯色背景、影棚柔光，正面无遮挡，作为唯一角色母版；
+  - **DON'T**：严禁用"素衣旧袍"这类含时代歧义的词描述现代剧服装——模型会画成古装长袍，必须写具体形制（"深灰色剪裁西装"）。
+
+### 10. 算家云带宽按"单连接"限速，图片回传要走 HTTP
+- **错误现象**：下载 16.2GB 模型只有 12.5MB/s（正好是 100Mbps 上限），以为平台总带宽只有 100M；用 SSH + base64 回传图片，1.5MB 一张要几分钟。
+- **根本原因**：
+  1. 平台限制的是**单条 TCP 连接**的速度，不是实例总带宽；
+  2. ComfyUI 自带 `/view` 接口，且实例端口已做公网映射（如 `http://xn-b.suanjiayun.com:61146/view?...`），图片可以直接 HTTP 拉取。
+- **正确做法与约束（Dos & Don'ts）**：
+  - **DO**：模型下载用 `aria2c -x8 -s8 -k1M -c`，实测 36MB/s，比单线程 curl 快 3 倍；
+  - **DO**：成图回传一律走 `/view?filename=…&subfolder=drama/<tag>&type=output`，47 张 PNG 约 13 秒；
+  - **DON'T**：严禁用 SSH 通道 base64 传大图；
+  - **DO**：自定义镜像不能跨区（华北镜像华南不可用），跨区一律用 `scripts/setup/deploy_qwen21.py` 重建环境（约 30~50 分钟）。
+
+> 完整操作手册（含提示词模板、换机清单）见 `docs/关键帧生产流程.md`。
