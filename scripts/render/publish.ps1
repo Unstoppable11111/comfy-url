@@ -27,6 +27,8 @@ if (-not $Message) {
 
 git add -A
 git commit -q -m $Message
+$ErrorActionPreference = 'Continue'
 git push origin main 2>&1 | Out-String | Write-Output
+$ErrorActionPreference = 'Stop'
 
 Write-Output ("已推送: " + (git log -1 --format='%h %s'))
