@@ -71,11 +71,10 @@ cd scripts\render
 python make_episode.py ..\..\projects\novel_01_qianlong --ep 1 --tag qianlong
 ```
 
-一条命令走完：建任务 → 上传 → 带角色参考图生成 → **自动下载 PNG 到
-`projects/<项目>/storyboard/frames/`**。
+一条命令走完：建任务（双 Skill 融合编译）→ 自动 HTTP 上传本地定妆照 → 推送执行脚本 → 带角色参考图生成 → **自动下载 PNG 到 `projects/<项目>/storyboard/frames/` 并生成联系表预览图至 `docs/previews/`**。
 
 - 默认走图生图（带定妆照参考），`--no-ref` 切纯文生图（下载到 `frames_textonly/`）
-- 前提：该项目的 `characters/portraits/` 里已有定妆照，服务器上也有对应的 `cast_<tag>` 目录
+- 前提：该项目的 `characters/portraits/` 里已有定妆照（无需提前手工传服务器，脚本会自动同步上传）
 - 单集约 13 个镜头，5~6 分钟
 
 单独补下载已有批次：

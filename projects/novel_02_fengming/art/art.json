@@ -6,15 +6,15 @@
       "id": "S01",
       "name": "顾家公馆大厅",
       "primary": true,
-      "summary": "欧式古典复古的豪门大厅，法式雕花与名贵油画彰显百年世家底蕴，也是真千金被诬陷逼离的修罗场。",
+      "summary": "现代中国京圈顶奢豪门公馆大厅，新古典大理石挑高空间与现代奢华家装融合，彰显百年世家底蕴，也是真千金被诬陷逼离的修罗场。",
       "anchors": [
         {
           "name": "法式壁炉与西洋铜钟",
           "desc": "天然白汉白玉浮雕壁炉，上方摆放十七世纪西洋鎏金双马摆钟"
         },
         {
-          "name": "欧式宫廷红绒沙发组",
-          "desc": "弧形描金木质雕边的高背沙发，铺设暗红古典提花厚绒"
+          "name": "新古典暗红丝绒高背沙发组",
+          "desc": "现代豪门定制描金木框高背沙发，铺设暗红丝绒软包"
         },
         {
           "name": "双向回旋大理石旋转楼梯",
@@ -24,13 +24,13 @@
       "lighting": [
         {
           "state": "室内明亮日光",
-          "prompt": "luxurious European classic manor living hall, bright soft natural daylight filtering through arched French windows, crystal chandelier off, clean daylight, sharp shadows, empty room without people."
+          "prompt": "modern Chinese neoclassical luxury villa living hall, bright soft natural daylight filtering through arched French windows, crystal chandelier off, clean daylight, sharp shadows, empty room without people."
         }
       ],
       "image": {
-        "prompt": "Interior photography of an opulent European classical manor hall, white marble carved fireplace, antique gilded carriage clock, crimson velvet sofa set, sweeping marble staircase, soft morning daylight, empty interior, absolutely no people.",
+        "prompt": "Interior photography of a modern Chinese neoclassical luxury villa living hall, white marble carved fireplace, antique gilded carriage clock, crimson velvet sofa set, sweeping marble staircase, soft morning daylight, empty interior, absolutely no people.",
         "negativePrompt": "people, human, person, silhouette, crowd, blurry, distorted architecture, low resolution",
-        "sheet": "Classical European manor interior design sheet, grand living hall with architectural elevations, authentic realistic materials, ultra clear details, empty interior without humans.",
+        "sheet": "Modern Chinese neoclassical luxury villa interior design sheet, grand living hall with architectural elevations, authentic realistic materials, ultra clear details, empty interior without humans.",
         "tags": [
           "classic manor interior",
           "marble fireplace",
