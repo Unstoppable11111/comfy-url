@@ -94,4 +94,4 @@ python3 deploy_qwen21.py --start
 
 ## 说明
 
-同目录下其余脚本（`deploy_official_qwen21.py`、`step1_*.py`、`fix_and_test_q21_import.py` 等）是上次在华北那台机器上手工排障的过程记录，留档用；新机器部署只需要 `deploy_qwen21.py`。
+`deploy_qwen21.py` 为新机器从零部署的唯一入口；同目录下的 `fetch_qwen21_models.sh` 可用于单独使用 `aria2c` / `curl` 断点下载三个核心模型。早期的手工排障记录脚本已清理（可在 Git 历史追溯）。

@@ -5,12 +5,9 @@
 ```
 scripts/
 ├── remote/       SSH 连接工具（登录 → 选实例 → 进容器 → 跑命令 / 传文件）
-├── checks/       排查类：查模型、查节点、查日志、读源码
-├── setup/        部署/修复/升级：装 ComfyUI、打补丁、下模型、装工作流
-├── render/       出图与验证：提交工作流、轮询结果、生成缩略图
-├── artifacts/    大文件与源码快照（ComfyUI 源码拷贝、离线包）
-│   └── legacy/   早期一次性探针脚本，留档用
-└── logs/         运行日志
+├── setup/        部署脚本与工作流（一键装 ComfyUI v0.44.2 + Qwen-Image 2.1）
+└── render/       出图与验证：建任务、提交工作流、轮询结果、HTTP 回传、拼图预览
+    └── tasks/    运行产生的中间任务 JSON（已在 .gitignore 忽略）
 ```
 
 ## 相关文档
@@ -85,7 +82,7 @@ python make_episode.py ..\..\projects\novel_01_qianlong --ep 1 --tag qianlong
 
 ```powershell
 python pull_frames.py --base http://xn-b.suanjiayun.com:61146 `
-  --tag ref_qianlong --ids shots_qianlong_ref_ep1.json `
+  --tag ref_qianlong --ids tasks\shots_novel_01_qianlong_ep1_ref.json `
   --dest ..\..\projects\novel_01_qianlong\storyboard\frames
 ```
 
@@ -95,4 +92,4 @@ python pull_frames.py --base http://xn-b.suanjiayun.com:61146 `
 
 ## 说明
 
-`checks/`、`setup/`、`render/` 里多数是当时排查问题的一次性脚本，保留是为了可追溯；真正长期用的是 `remote/` 下这套连接工具。
+早期的排障探针与临时调试脚本已清理（历史留档见 Git 提交记录）；当前目录下保留的均为长期生产与运维工具。

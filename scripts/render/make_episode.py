@@ -65,7 +65,9 @@ def main():
     proj = Path(args.project).resolve()
     name = proj.name
     ref = not args.no_ref
-    task = HERE / ("shots_%s_ep%d%s.json" % (name, args.ep, "_ref" if ref else ""))
+    tasks_dir = HERE / "tasks"
+    tasks_dir.mkdir(parents=True, exist_ok=True)
+    task = tasks_dir / ("shots_%s_ep%d%s.json" % (name, args.ep, "_ref" if ref else ""))
     dest = proj / "storyboard" / ("frames" if ref else "frames_textonly")
 
     # 1) 建任务

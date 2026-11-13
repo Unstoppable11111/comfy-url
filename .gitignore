@@ -11,11 +11,10 @@ __pycache__/
 Thumbs.db
 .gates.jsonl
 
-# 脚本凭据与运行日志
+# 脚本凭据与生成任务中间文件
 scripts/remote/.env.local
-scripts/logs/
-
-# 大文件归档
-scripts/artifacts/*.zip
-scripts/artifacts/*.tar.gz
+scripts/render/tasks/
+scripts/render/*.done.json
+scripts/render/shots_*.json
+scripts/render/cast_*.json
 
